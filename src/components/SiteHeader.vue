@@ -7,12 +7,8 @@ import NavBar from '@/components/NavBar.vue';
   <NavBar />
 
   <section>
-    <header>
-      <div>
-        <h1>Defense Ammunition Center</h1>
-        <h2>McAlester, OK</h2>
-      </div>
-    </header>
+    <h1>Defense Ammunition Center</h1>
+    <h2>McAlester, OK</h2>
   </section>
 </template>
 

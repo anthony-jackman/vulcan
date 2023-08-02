@@ -3,7 +3,6 @@
 </script>
 
 <template>
-  <main>
     <section>
       <h1>Welcome to DAC Training</h1>
 
@@ -45,7 +44,6 @@
         <MenuCard image-filename="faq.png" cardTitle="Frequently Asked Questions (FAQ)" />
       </article>
     </section>
-  </main>
 </template>
 
 <style lang="scss" scoped>
