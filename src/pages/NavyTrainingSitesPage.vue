@@ -1,37 +1,37 @@
 <script setup></script>
 
 <template>
-  <h1>Navy Training Site Information>
+  <h1 class="title has-text-centered">Navy Training Site Information</h1>
   <hr />
   <p>Click the link below to see points of contact, housing locations, and other site-specific information for each Navy site that offers DAC courses.</p>
   <ul>
-    <li>NWS Seal Beach, CA</li>
-    <li>MCAS Miramar, San Diego, CA</li>
-    <li>MCAGCC 29 Palms, CA</li>
-    <li>20SRG Gulfport, MS</li>
-    <li>Defense Ammunition Center, McAlester, OK</li>
-    <li>EWTGLANT NAB Little Creek, VA</li>
-    <li>MCBH - Kaneohe Bay, HI</li>
-    <li>NAS Jacksonville, FL</li>
-    <li>NUWC Keyport, WA</li>
-    <li>NAVMAG Indian Island, WA</li>
-    <li>Norfolk, VA</li>
-    <li>NAS Oceana, VA</li>
-    <li>NSA Bahrain</li>
-    <li>NWS Charleston, SC</li>
-    <li>Okinawa, Japan</li>
-    <li>Rota, Spain</li>
-    <li>San Diego, CA</li>
-    <li>NSA Naples, Italy</li>
-    <li>Sigonella, Italy</li>
-    <li>Yokosuka, Japan - Base/Installation Map</li>
-    <li>MCAS Cherry Point, NC</li>
-    <li>Naval Air Weapons Station, China Lake, CA</li>
-    <li>MCB, Camp Pendleton, CA</li>
-    <li>MCAS, Camp Pendleton, CA</li>
-    <li>Guam</li>
-    <li>NAF El Centro</li>
-    <li>NAS Whidbey Island, WA</li>
+    <li><RouterLink :to="{ name: 'sealbeach' }">NWS Seal Beach, CA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'mcasMiramar' }">MCAS Miramar, San Diego, CA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'mcagc29Palms' }">MCAGCC 29 Palms, CA</RouterLink></li>
+    <li><RouterLink :to="{ name: '20srgGulfport' }">20SRG Gulfport, MS</RouterLink></li>
+    <li><RouterLink :to="{ name: 'dacMcAlester' }">Defense Ammunition Center, McAlester, OK</RouterLink></li>
+    <li><RouterLink :to="{ name: 'ewtglantLittleCreek' }">EWTGLANT NAB Little Creek, VA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'mcbhKaneoheBay' }">MCBH - Kaneohe Bay, HI</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navairstaJacksonville' }">NAS Jacksonville, FL</RouterLink></li>
+    <li><RouterLink :to="{ name: 'nuwcKeyport' }">NUWC Keyport, WA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navmagIndianIsland' }">NAVMAG Indian Island, WA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navstaNorfolk' }">Norfolk, VA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navairstaOceana' }">NAS Oceana, VA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navsupactBahrain' }">NSA Bahrain</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navwpnstaCharleston' }">NWS Charleston, SC</RouterLink></li>
+    <li><RouterLink :to="{ name: 'okinawa' }">Okinawa, Japan</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navstaRota' }">Rota, Spain</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navbaseSanDiego' }">San Diego, CA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navsupactNaples' }">NSA Naples, Italy</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navairstaSigonella' }">Sigonella, Italy</RouterLink></li>
+    <li><a href="/docs/Yokosuka_AMMO_Classes_Notice.pdf" target="_blank">Yokosuka, Japan (pdf)</a></li>
+    <li><RouterLink :to="{ name: 'mcasCherryPoint' }">MCAS Cherry Point, NC</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navairwpnstaChinaLake' }">Naval Air Weapons Station, China Lake, CA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'mcbPendleton' }">MCB, Camp Pendleton, CA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'mcasPendleton' }">MCAS, Camp Pendleton, CA</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navbaseGuam' }">Guam</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navairfacElCentro' }">NAF El Centro</RouterLink></li>
+    <li><RouterLink :to="{ name: 'navairstaWhidbeyIs' }">NAS Whidbey Island, WA</RouterLink></li>
   </ul>
 </template>
 

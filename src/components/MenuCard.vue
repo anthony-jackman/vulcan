@@ -22,18 +22,18 @@ const getImageUrl = (imageFilename) => {
 
 <template>
   <div class='card'>
-    <div class='card-image'>
-      <figure class='image'>
+    <div class='card-image mb-2'>
+      <figure class='image is-4by3'>
         <img :src="getImageUrl(props.imageFilename)">
       </figure>
     </div>
-    <header class='card-header'>
-      <p class='card-header-title is-centered'>{{ cardTitle }}</p>
-    </header>
-    
+    <div class='has-text-centered'>
+      <p class="has-text-weight-bold">{{ cardTitle }}</p>
+    </div>
   </div>
 </template>
 
 <style lang="scss">
+
 
 </style>

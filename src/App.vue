@@ -1,26 +1,29 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import SiteHeader from '@/components/SiteHeader.vue';
-  // import NavBar from '@/components/NavBar.vue';
+import { RouterView } from 'vue-router'
+import NavBar from '@/components/NavBar.vue';
+import HeroBar from '@/components/HeroBar.vue';
 import SiteFooter from '@/components/SiteFooter.vue';
 </script>
 
 <template>
+  <div>
+    <header>
+      <NavBar />
+      <HeroBar />
+    </header>
 
-  <header>
-    <SiteHeader />
-  </header>
+    <main class="container mb-6">
+      <RouterView />
+    </main>
 
-  <main>
-    <RouterView />
-  </main>
+    <footer class="footer has-background-grey-light">
+      <SiteFooter class="content" />
+    </footer>
 
-  <footer>
-    <SiteFooter />
-  </footer>
-
+  </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+
 
 </style>

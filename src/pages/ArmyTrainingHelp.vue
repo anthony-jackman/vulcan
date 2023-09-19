@@ -8,7 +8,8 @@
   <p>
     <h3>By Phone:</h3>
     <p>Army Training Help Desk<br />Hours: 24/7, 365 days per year<br />DSN: 826-4745<br />Toll Free: 1-877-251-0730 or 1-800-275-2872<br />Commercial: 1-757-878-4745</p>
-    <p>Select <strong>Option 1</strong> for the ALMS.
+    <p>Select <strong>Option 1</strong> for the ALMS.</p>
+  </p>
 </template>
 
 <style lang="scss"></style>

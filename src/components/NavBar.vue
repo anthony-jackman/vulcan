@@ -25,10 +25,11 @@
 </script>
 
 <template>
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar is-fixed-top is-transparent has-background-black" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <!-- <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+    <!-- <a id="logoText" class="navbar-item" href="https://defenseammunitioncenter.army.mil">
+      <img alt="DAC logo" class="logo" src="@/assets/icons/DAC_high_FX.png" />
+      Defense Ammunition Center
     </a> -->
 
     <a role="button" class="navbar-burger" aria-label="site menu" aria-expanded="false" data-target="dacCCmenu">
@@ -39,47 +40,19 @@
   </div>
 
   <div id="dacCCmenu" class="navbar-menu">
-    <div class="navbar-start">
-      <!-- <a class="navbar-item">
-        Home
-      </a>
+    <div class="navbar-start"></div>
 
-      <a class="navbar-item">
-        Documentation
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div> -->
-    </div>
-
-    <div class="navbar-end">
+    <div class="navbar-end has-background-black">
       <RouterLink :to="{ name: 'home' }" class='navbar-item'>Home</RouterLink>
       <RouterLink :to="{ name: 'classroom' }" class='navbar-item'>Classroom Trianing</RouterLink>
       <RouterLink :to="{ name: 'online' }" class='navbar-item'>Online Training</RouterLink>
       <RouterLink :to="{ name: 'mobileapps' }" class='navbar-item'>Mobile Apps</RouterLink>
       <RouterLink :to="{ name: 'navytrng' }" class='navbar-item'>Navy Training</RouterLink>
+      <RouterLink :to="{ name: 'commpract' }" class="navbar-item">Community of Practice</RouterLink>
+      <RouterLink :to="{ name: 'qacec' }" class='navbar-item'>Accreditation</RouterLink>
       <RouterLink :to="{ name: 'faq' }" class='navbar-item'>Frequently Asked Questions</RouterLink>
-      <RouterLink :to="{ name: 'about' }" class='navbar-item'>About</RouterLink>
-      </div>
+      <!-- <RouterLink :to="{ name: 'about' }" class='navbar-item'>About</RouterLink> -->
+    </div>
   </div>
 </nav>
 
@@ -87,7 +60,39 @@
 </template>
 
 <style lang='scss' scoped>
-// .navbar {
-//   transition: transform 200ms ease-out;
-// }
+.navbar {
+  transition: transform 200ms ease-out;
+  // background-color: #48494A;
+  // color: #CDB00F;
+  font-size: 1.125rem;
+
+  .navbar-brand {
+    
+    .navbar-item {
+      color: #dfda8d;
+
+      &:hover {
+        color: #DD3F28;
+        font-weight: 200;
+      }
+      .logo {
+        width: 38px;
+        height: 65px;
+        margin-right: 5px;
+      }
+    }
+    .navbar-burger {
+      color: #DD3F28;
+    }
+  }
+  .navbar-menu .navbar-item {
+    color: #dfda8d;
+    // background-color: #48494A;
+
+    &:hover, &:active {
+      color: #DD3F28;
+      font-weight: 600;
+    }
+  }
+}
 </style>
