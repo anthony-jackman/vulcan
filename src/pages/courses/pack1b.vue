@@ -154,10 +154,10 @@ function closeModal() {
     <p>You will receive your Individualized Student Assessment Plan (ISAP) information upon arrival to this class.</p>
   </section>
   <section id="description" class="block">
-    <h2 class="subtitle is-inline is-bold">Description: </h2>This course satisfies mandatory training requirements for the certification of personnel responsible for supporting military preservation, packaging, unitization, and ISO containerization activities as prescribed by DoDI 5160.68, AR 700-15, and AR 700-37 and DA Interns enrolled in Quality Assurance Specialist, Ammunition Surveillance (QASAS) Career Program (CP)-20 or Ammunition Management CP-33 as prescribed by AR 690-950. This course provides technical hands-on training in applying unit and intermediate military packaging and preservation methods, outer packing procedures, cleaning and drying processes, containerization load planning, load blocking and bracing, palletized and unitized loads, preservative materials, cushioning, marking, and labeling in accordance with military packaging policy criteria and packaging specifications and standards. Students will receive hands-on training in conducting military preservation and packaging activities in a packaging workshop.
+    <h2 class="subtitle is-inline is-bold">Description: </h2>This course satisfies mandatory training requirements for the certification of personnel responsible for supporting military preservation, packaging, unitization, and ISO containerization activities as prescribed by DoDI 5160.68, AR 700-15, and AR 700-37 and for Logistics Functional Community fellows as prescribed by AR 690-950. This course provides technical hands-on training in applying unit and intermediate military packaging and preservation methods, outer packing procedures, cleaning and drying processes, containerization load planning, load blocking and bracing, palletized and unitized loads, preservative materials, cushioning, marking, and labeling in accordance with military packaging policy criteria and packaging specifications and standards. Students will receive hands-on training in conducting military preservation and packaging activities in a packaging workshop.
   </section>
   <section id="audience" class="block">
-    <h2 class="subtitle is-inline is-bold">Audience: </h2>Personnel responsible for supporting military preservation, packaging, unitization, and ISO containerization activities as prescribed by DoDI 5160.68, AR 700-15, and AR 700-37 and DA Interns enrolled in Quality Assurance Specialist, Ammunition Surveillance (QASAS) Career Program (CP)-20 or Ammunition Management CP-33 as prescribed by AR 690-50.
+    <h2 class="subtitle is-inline is-bold">Audience: </h2>This course is considered certification training for personnel responsible for supporting military preservation, packaging, unitization, and ISO containerization activities as prescribed by DoDI 5160.68, AR 700-15, and AR 700-37 and for Logistics Functional Community fellows as prescribed by AR 690-950.
   </section>
     <section id="crseLngth" class="block">
     <h2 class="subtitle is-inline is-bold">Length: </h2>80 Hours.
@@ -166,7 +166,7 @@ function closeModal() {
     <h2 class="subtitle is-inline is-bold">Required Equipment: </h2>None.
   </section>
   <section id="prereqs" class="block">
-    <h2 class="subtitle is-inline is-bold">Prerequisites: </h2>Successful Completion of course No. 8A-F63/551-F55-DL, DEFENSE BASIC PRESERVATION AND PACKING (CERT), offered by the Defense Ammunition Center (DAC) via distance learning (DL).v
+    <h2 class="subtitle is-inline is-bold">Prerequisites: </h2>Successful Completion of course No. <RouterLink :to="{ name: 'pack1adl' }">8A-F63/551-F55-DL, DEFENSE BASIC PRESERVATION AND PACKING (CERT)</RouterLink>, offered by the Defense Ammunition Center (DAC) via distance learning (DL).
   </section>
   <section id="secClnc" class="block">
     <h2 class="subtitle is-inline is-bold">Security Clearance: </h2>None required.
