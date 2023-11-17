@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h1 class="title has-text-centered">20th Seabee Readiness Group, Gulfport, MS</h1>
+  <h1 class="title has-text-centered mt-3">20th Seabee Readiness Group, Gulfport, MS</h1>
 
   <section class="block">
     <p>Visit the 20 Seabee Readiness Group homepage by clicking on the link below:</p>
@@ -30,7 +26,3 @@
   </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

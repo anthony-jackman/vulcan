@@ -114,7 +114,7 @@ function closeModal() {
     <p>You will receive your Individualized Student Assessment Plan (ISAP) information upon arrival to this class.</p>
   </section>
   <section id="description" class="block">
-    <h2 class="subtitle is-inline is-bold">Description: </h2>This course satisfies mandatory training requirements for the certification of Ammunition Surveillance Inspectors, Dry Cargo Container Inspectors, and other personnel responsible for certifying intermodal dry cargo containers in accordance with United States Federal Law, the International Organization for Standardization (ISO), and the International Convention for Safe Containers (CSC) as prescribed by DoDI 5160.68, 49 CFR, and NAVSEA OP 5, Volume 1. This course provides a comprehensive review of guidance, techniques, and procedures for reinspecting intermodal dry cargo containers, as well as technical training in applying CSC container types and structural/non-structural components, reporting and administrative requirements, decal specifications, tools and equipment, and reinspection standards and criteria as directed in US Public Law and Joint Service regulations. Students will receive hands-on training in performing intermodal dry cargo certification/reinspection procedures using MIL-STD-3037. Certification is good for four (4) years; this course or Course No. 8A-F62/551-F54-DL, INTERMODAL DRY CARGO CNTR/CSC REINSPEC (CERT), offered by DAC via Distance Learning (DL) may be completed every four (4) years to maintain certification.
+    <h2 class="subtitle is-inline is-bold">Description: </h2>This course satisfies mandatory training requirements for the certification of Ammunition Surveillance Inspectors, Dry Cargo Container Inspectors, and other personnel responsible for certifying intermodal dry cargo containers in accordance with United States Federal Law, the International Organization for Standardization (ISO), and the International Convention for Safe Containers (CSC) as prescribed by DoDI 5160.68, 49 CFR, and NAVSEA OP 5, Volume 1. This course provides a comprehensive review of guidance, techniques, and procedures for reinspecting intermodal dry cargo containers, as well as technical training in applying CSC container types and structural/non-structural components, reporting and administrative requirements, decal specifications, tools and equipment, and reinspection standards and criteria as directed in US Public Law and Joint Service regulations. Students will receive hands-on training in performing intermodal dry cargo certification/reinspection procedures using MIL-STD-3037. Certification is good for four (4) years; this course or Course No. <RouterLink :to="{ name: 'ammo43dl' }">8A-F62/551-F54-DL, INTERMODAL DRY CARGO CNTR/CSC REINSPEC (CERT)</RouterLink>, offered by DAC via Distance Learning (DL) may be completed every four (4) years to maintain certification.
   </section>
   <section id="audience" class="block">
     <h2 class="subtitle is-inline is-bold">Audience: </h2>Ammunition Surveillance Inspectors, Dry Cargo Container Inspectors, and other personnel responsible for certifying intermodal dry cargo containers in accordance with United States Federal Law, the International Organization for Standardization (ISO), and the International Convention for Safe Containers (CSC) as prescribed by DoDI 5160.68, 49 CFR, and NAVSEA OP 5, Volume 1.
@@ -212,9 +212,3 @@ function closeModal() {
     </ContactInfo>
   </Teleport>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-</style>

@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h1 class="title has-text-centered">Marine Corps Air Ground Combat Center (MCAGCC)<br />Twentynine Palms, CA</h1>
+  <h1 class="title has-text-centered mt-3">Marine Corps Air Ground Combat Center (MCAGCC)<br />Twentynine Palms, CA</h1>
 
   <section class="block">
     <h2 class="subtitle is-inline is-bold">Point of Contact: </h2>Mr. William Glover; email: <a href='mailto:william.glover@usmc.mil' target='_blank'>william.glover@usmc.mil</a>.
@@ -22,7 +18,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Marine Corps Base Hawaii, Kaneohe Bay, HI</h2>
+  <h2 class="title has-text-centered mt-3">Marine Corps Base Hawaii, Kaneohe Bay, HI</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2>  Scott Ebert, ESO; Phone: (DSN) 457-1830, (COML) 808-257-1830
@@ -28,7 +24,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

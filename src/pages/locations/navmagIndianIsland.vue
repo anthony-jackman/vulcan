@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Magazine Indian Island, Port Hadlock, WA </h2>
+  <h2 class="title has-text-centered mt-3">Naval Magazine Indian Island, Port Hadlock, WA </h2>
 
 <section class="block">
   <h2 class="subtitle is-bold">Directions:</h2>
@@ -47,7 +43,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Station Rota, Rota Spain</h2>
+  <h2 class="title has-text-centered mt-3">Naval Station Rota, Rota Spain</h2>
 
 <section class="block">
   <h2 class="subtitle is-bold">Primary Point of Contact:</h2>
@@ -24,7 +20,3 @@ Phone for CBQ/Lodge on-base quarters: DSN (314) 727-1750, Commercial (011-34) 95
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

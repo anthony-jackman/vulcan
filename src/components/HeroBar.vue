@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <div class="hero has-background-grey-light is-small">
     <div class="hero-body mt-6 is-flex is-justify-content-center is-align-items-center">
@@ -15,10 +11,3 @@
     </div>
   </div>
 </template>
-
-<style lang='scss' scoped>
-.hero {
-  height: 143px;
-}
-
-</style>

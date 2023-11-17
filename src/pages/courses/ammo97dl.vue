@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <h1 class="title has-text-centered mt-3">AMMO-97-DL Munitions History Program (MHP) (4E-F64/645-F48 (DL))</h1>
     <section id="register" class="buttons columns">
@@ -43,12 +39,3 @@
     </div>
     </section>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-button {
-  background-color: #B7AE5E;
-}
-</style>

@@ -12,7 +12,6 @@ const filteredContact = computed(() => {
   if (selectedContactId.value) {
     console.log(selectedContactId)
     return sitePocs.value.filter((poc) => poc.contactId === selectedContactId.value);
-    
   } else {
     return [];
   }
@@ -118,9 +117,3 @@ function closeModal() {
     </ContactInfo>
   </Teleport>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-</style>

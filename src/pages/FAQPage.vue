@@ -1,10 +1,9 @@
 <script setup>
-// import bulmaCollapsible from '@creativebulma/bulma-collapsible';
 import { AccordionList, AccordionItem } from "vue3-rich-accordion";
 </script>
 
 <template>
-  <h2 class="title has-text-centered">Frequently Asked Questions</h2>
+  <h2 class="title has-text-centered mt-3">Frequently Asked Questions</h2>
   <hr />
 
   <div class="sandbox">
@@ -95,51 +94,3 @@ import { AccordionList, AccordionItem } from "vue3-rich-accordion";
     <li><a href='#'>How do I print a certificate of completion?</a></li>
   </ul> -->
 </template>
-
-<style lang="scss" scoped>
-.pubreqs ul {
-  list-style: disc;
-}
-// .sandbox {
-//     display: flex;
-//     justify-content: space-between;
-//     font-family: "Roboto", sans-serif;
-
-//     @media only screen and (max-width: 700px) {
-//       flex-wrap: wrap;
-//     }
-
-//     .v-model-rep {
-//       min-width: 300px;
-//       margin-left: 50px;
-
-//       @media only screen and (max-width: 700px) {
-//         flex-basis: 100%;
-//       }
-
-//       & button {
-//         font-size: 14px;
-//         line-height: 20px;
-//         display: inline-flex;
-//         justify-content: center;
-//         align-items: center;
-//         padding: 8px 12px;
-//         border-radius: 6px;
-
-//         &:nth-child(2n + 1) {
-//           background: #6002ee;
-//           color: #ffffff;
-//           margin-right: 12px;
-//           border: 1px solid #6002ee;
-//         }
-
-//         &:nth-child(2n) {
-//           background: transparent;
-//           border: 1px solid #6002ee;
-//           color: #6002ee;
-//           margin-right: 12px;
-//         }
-//       }
-//     }
-//   }
-</style>

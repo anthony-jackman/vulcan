@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Air Station Jacksonville, FL</h2>
+  <h2 class="title has-text-centered mt-3">Naval Air Station Jacksonville, FL</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2> Jack Black<br />Email: <a href="mailto:jack.black.civ@us.navy.mil" target="_blank">jack.black.civ@us.navy.mil</a><br />
@@ -56,7 +52,3 @@ All rooms are 1 Queen or 2 Queens with kitchenettes
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

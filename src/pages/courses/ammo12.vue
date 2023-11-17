@@ -169,9 +169,3 @@ function closeModal() {
     </ContactInfo>
   </Teleport>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-</style>

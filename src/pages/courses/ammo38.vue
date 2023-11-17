@@ -79,7 +79,7 @@ function closeModal() {
   <section id="audience" class="block">
     <h2 class="subtitle is-inline is-bold">Audience: </h2>Personnel requiring training to conduct guided missile and large rocket surveillance functions as prescribed by DoDI 5160.68 and AR 385-10 and DA Interns enrolled in Quality Assurance Specialist, Ammunition Surveillance (QASAS) Career Program (CP)-20 or Ammunition Management CP-33 as prescribed by AR 690-950. <span class="has-text-weight-bold has-text-danger">NOTE:</span> This course is rated FD3 and not available to International Military Students.
   </section>
-    <section id="crseLngth" class="block">
+  <section id="crseLngth" class="block">
     <h2 class="subtitle is-inline is-bold">Length: </h2>2 Weeks, 3 Days.
   </section>
   <section id="specInfo" class="block">
@@ -98,19 +98,19 @@ function closeModal() {
     <h2 class="subtitle is-inline is-bold">Course Topics: </h2>
     <div class="content">
       <ul>
-      <li>Publications and Terms</li>
-      <li>Basic Missiles and Rockets</li>
-      <li>Guided Missile and Large Rocket Surveillance, Safety and Maintenance</li>
-      <li>Stinger Missile System</li>
-      <li>MLRS and GMLRS</li>
-      <li>Army Tactical Missile System (ATACMS)</li>
-      <li>Javelin Missile System</li>
-      <li>Tube-launched, Optically-tracked, Wire-guided (TOW) Missile System</li>
-      <li>Hellfire Missile System</li>
-      <li>Patriot Missile System</li>
-      <li>Terminal High Altitude Area Defense (THAAD)</li>
-      <li>Hands-on Lab for Guided Missiles and Large Rockets</li>
-    </ul>
+        <li>Publications and Terms</li>
+        <li>Basic Missiles and Rockets</li>
+        <li>Guided Missile and Large Rocket Surveillance, Safety and Maintenance</li>
+        <li>Stinger Missile System</li>
+        <li>MLRS and GMLRS</li>
+        <li>Army Tactical Missile System (ATACMS)</li>
+        <li>Javelin Missile System</li>
+        <li>Tube-launched, Optically-tracked, Wire-guided (TOW) Missile System</li>
+        <li>Hellfire Missile System</li>
+        <li>Patriot Missile System</li>
+        <li>Terminal High Altitude Area Defense (THAAD)</li>
+        <li>Hands-on Lab for Guided Missiles and Large Rockets</li>
+      </ul>
     </div>
   </section>
   <section id="availability" class="block">
@@ -172,9 +172,3 @@ function closeModal() {
     </ContactInfo>
   </Teleport>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-</style>

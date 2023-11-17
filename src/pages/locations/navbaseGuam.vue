@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Base Guam, Joint Region Marianas, Guam</h2>
+  <h2 class="title has-text-centered mt-3">Naval Base Guam, Joint Region Marianas, Guam</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2> Mindy G. Pegarido<br />Commercial (671) 349-9214 DSN: 315-349-9214<br />Email: <a href="mailto:mindy.pegarido@fe.navy.mil" target="_blank">mindy.pegarido@fe.navy.mil</a>
@@ -14,7 +10,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

@@ -81,7 +81,6 @@ function closeModal() {
 
 
 <template>
-
   <h1 class="title has-text-centered mt-3">AMMO-4 Ammunition Demilitarization (9E-F63/920-F31)</h1>
   <section id="isap" class="has-background-grey-lighter has-text-grey-dark has-text-centered block">
     <p>You will receive your Individualized Student Assessment Plan (ISAP) information upon arrival to this class.</p>
@@ -175,10 +174,3 @@ function closeModal() {
     </ContactInfo>
   </Teleport>
 </template>
-
-<style lang="scss" scoped>
-
-// #crseTopics ul {
-//   list-style: disc;
-// }
-</style>

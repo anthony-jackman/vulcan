@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Marine Corps Air Station Cherry Point, NC</h2>
+  <h2 class="title has-text-centered mt-3">Marine Corps Air Station Cherry Point, NC</h2>
 
 <section class="block">
   Visit the link below to view the Naval Air Station Jacksonville homepage:
@@ -23,7 +19,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
-  <h1 class="title has-text-centered">Navy Training Site Information</h1>
+  <h1 class="title has-text-centered mt-3">Navy Training Site Information</h1>
   <hr />
   <p>Click the link below to see points of contact, housing locations, and other site-specific information for each Navy site that offers DAC courses.</p>
   <ul>
@@ -34,7 +32,3 @@
     <li><RouterLink :to="{ name: 'navairstaWhidbeyIs' }">NAS Whidbey Island, WA</RouterLink></li>
   </ul>
 </template>
-
-<style lang='scss' scoped>
-
-</style>

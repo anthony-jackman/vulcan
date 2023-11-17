@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Weapon Station China Lake, CA</h2>
+  <h2 class="title has-text-centered mt-3">Naval Weapon Station China Lake, CA</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2> Susie S. Johnson (ESO) Commercial (760) 939-2099
@@ -21,7 +17,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Undersea Warfare Center, Keyport, WA</h2>
+  <h2 class="title has-text-centered mt-3">Naval Undersea Warfare Center, Keyport, WA</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2> Jill Mercer, ESO
@@ -46,7 +42,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

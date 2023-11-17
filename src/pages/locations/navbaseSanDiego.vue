@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Base San Diego, San Diego, CA</h2>
+  <h2 class="title has-text-centered mt-3">Naval Base San Diego, San Diego, CA</h2>
 
 <section class="block">
   <h2 class="subtitle is-bold">Point of Contact:</h2>
@@ -49,7 +45,3 @@ Visit the following sites for the latest lodging information:
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

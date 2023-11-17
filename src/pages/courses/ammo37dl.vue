@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <h1 class="title has-text-centered mt-3">AMMO-37-DL General Transportation of Hazardous Materials Refresher (CERT) (9E-F66/920-F34 (DL))</h1>
   <section id="register" class="buttons columns">
@@ -39,12 +35,3 @@
   </section>
     
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-button {
-  background-color: #B7AE5E;
-}
-</style>

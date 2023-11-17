@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Weapon Station Seal Beach, CA</h2>
+  <h2 class="title has-text-centered mt-3">Naval Weapon Station Seal Beach, CA</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2> J.M. McCain<br />
@@ -15,7 +11,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>
