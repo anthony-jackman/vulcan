@@ -1,112 +1,19 @@
 <script setup>
 import ContactInfo from '@/components/ContactModal.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const modalActive = ref(false);
 const selectedContactId = ref('');
-const skedDatas = [
-  {
-    "classId": "00001",
-    "startDate": "08/21/2023",
-    "stopDate": "08/25/2023",
-    "location": "Norfolk, VA",
-    "classNumb": "704",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00002",
-    "startDate": "08/26/2024",
-    "stopDate": "08/30/2024",
-    "location": "McAlester, OK",
-    "classNumb": "001",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00003",
-    "startDate": "11/27/2023",
-    "stopDate": "12/01/2023",
-    "location": "Rota, Spain, AE",
-    "classNumb": "701",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00004",
-    "startDate": "02/26/2024",
-    "stopDate": "03/01/2024",
-    "location": "San Diego, CA",
-    "classNumb": "703",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00005",
-    "startDate": "04/15/2024",
-    "stopDate": "04/19/2024",
-    "location": "Yokosuka, Japan, AP",
-    "classNumb": "704",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00006",
-    "startDate": "08/05/2024",
-    "stopDate": "08/09/2024",
-    "location": "Norfolk, VA",
-    "classNumb": "705",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00007",
-    "startDate": "01/29/2024",
-    "stopDate": "02/02/2024",
-    "location": "HCBH-Kaneohe Bay, HI",
-    "classNumb": "706",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  }
-];
-const sitePocs = ref([
-  {
-    "contactId": '000001',
-    "pocTitle": 'For Registration Availability for this Navy course',
-    "pocName": 'NOSSA Registrar',
-    "pocEmail": 'https://nossa.dc3n.navy.mil/nrws3/',
-    "pocPhone1": '',
-    "pocPhone2": '',
-    "pocdsnPhone": '',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
+let skedDatas = ref([]);
+let sitePocs = ref([]);
 
-  },
-  {
-    "contactId": '000002',
-    "pocTitle": 'craziness',
-    "pocName": 'mars operator',
-    "pocEmail": 'usarmy.mcalester.usamc.mbx.dac-atrrs-registrar@army.mil',
-    "pocPhone1": '918-420-8707',
-    "pocPhone2": '918-420-8489',
-    "pocdsnPhone": '956-8707',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
-  }
-]);
+onMounted(async () => {
+  const responseSkedData = await fetch('/data/ammo36sched.json');
+  skedDatas.value = await responseSkedData.json();
+
+  const responseSitePocs = await fetch('/data/ammo36poc.json');
+  sitePocs.value = await responseSitePocs.json();
+});
 
 const filteredContact = computed(() => {
   if (selectedContactId.value) {

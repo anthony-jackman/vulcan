@@ -1,12 +1,19 @@
 <script setup>
 import ContactInfo from '@/components/ContactModal.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const modalActive = ref(false);
 const selectedContactId = ref('');
+let skedDatas = ref([]);
+let sitePocs = ref([]);
 
-const skedDatas = [];
-const sitePocs = ref([]);
+onMounted(async () => {
+  const responseSkedData = await fetch('/data/ammo01sched.json');
+  skedDatas.value = await responseSkedData.json();
+
+  const responseSitePocs = await fetch('/data/ammo01poc.json');
+  sitePocs.value = await responseSitePocs.json();
+});
 
 const filteredContact = computed(() => {
   if (selectedContactId.value) {

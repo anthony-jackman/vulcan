@@ -1,0 +1,72 @@
+[
+  {
+    "classId": "00001",
+    "startDate": "08/21/2023",
+    "stopDate": "08/25/2023",
+    "location": "Norfolk, VA",
+    "classNumb": "704",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00002",
+    "startDate": "08/26/2024",
+    "stopDate": "08/30/2024",
+    "location": "McAlester, OK",
+    "classNumb": "001",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00003",
+    "startDate": "11/27/2023",
+    "stopDate": "12/01/2023",
+    "location": "Rota, Spain, AE",
+    "classNumb": "701",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00004",
+    "startDate": "02/26/2024",
+    "stopDate": "03/01/2024",
+    "location": "San Diego, CA",
+    "classNumb": "703",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00005",
+    "startDate": "04/15/2024",
+    "stopDate": "04/19/2024",
+    "location": "Yokosuka, Japan, AP",
+    "classNumb": "704",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00006",
+    "startDate": "08/05/2024",
+    "stopDate": "08/09/2024",
+    "location": "Norfolk, VA",
+    "classNumb": "705",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00007",
+    "startDate": "01/29/2024",
+    "stopDate": "02/02/2024",
+    "location": "HCBH-Kaneohe Bay, HI",
+    "classNumb": "706",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  }
+]

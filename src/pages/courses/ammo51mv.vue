@@ -1,102 +1,19 @@
 <script setup>
 import ContactInfo from '@/components/ContactModal.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const modalActive = ref(false);
 const selectedContactId = ref('');
-const skedDatas = [
-  {
-    "classId": "00001",
-    "startDate": "12/11/2023",
-    "stopDate": "12/13/2023",
-    "location": "Rota, Spain, AE",
-    "classNumb": "002",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00002",
-    "startDate": "04/10/2024",
-    "stopDate": "04/12/2024",
-    "location": "Yokosuka, Japan, AP",
-    "classNumb": "701",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00003",
-    "startDate": "05/06/2024",
-    "stopDate": "05/08/2024",
-    "location": "Okinawa, Japan, AP",
-    "classNumb": "702",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00004",
-    "startDate": "05/21/2024",
-    "stopDate": "05/23/2024",
-    "location": "Norfolk, VA",
-    "classNumb": "703",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00005",
-    "startDate": "06/11/2024",
-    "stopDate": "06/13/2024",
-    "location": "San Diego, CA",
-    "classNumb": "704",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00006",
-    "startDate": "01/17/2024",
-    "stopDate": "01/19/2024",
-    "location": "MCBH, AP",
-    "classNumb": "705",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  }
-];
-const sitePocs = ref([
-  {
-    "contactId": '000001',
-    "pocTitle": 'For Registration Availability for this Navy course',
-    "pocName": 'NOSSA Registrar',
-    "pocEmail": 'https://nossa.dc3n.navy.mil/nrws3/',
-    "pocPhone1": '',
-    "pocPhone2": '',
-    "pocdsnPhone": '',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
+let skedDatas = ref([]);
+let sitePocs = ref([]);
 
-  },
-  {
-    "contactId": '000002',
-    "pocTitle": 'craziness',
-    "pocName": 'mars operator',
-    "pocEmail": 'usarmy.mcalester.usamc.mbx.dac-atrrs-registrar@army.mil',
-    "pocPhone1": '918-420-8707',
-    "pocPhone2": '918-420-8489',
-    "pocdsnPhone": '956-8707',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
-  }
-]);
+onMounted(async () => {
+  const responseSkedData = await fetch('/data/ammo51mvsched.json');
+  skedDatas.value = await responseSkedData.json();
+
+  const responseSitePocs = await fetch('/data/ammo51mvpoc.json');
+  sitePocs.value = await responseSitePocs.json();
+});
 
 const filteredContact = computed(() => {
   if (selectedContactId.value) {

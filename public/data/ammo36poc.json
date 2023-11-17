@@ -1,0 +1,31 @@
+[
+  {
+    "contactId": "000001",
+    "pocTitle": "For Registration Availability for this Navy course",
+    "pocName": "NOSSA Registrar",
+    "pocEmail": "https://nossa.dc3n.navy.mil/nrws3/",
+    "pocPhone1": "",
+    "pocPhone2": "",
+    "pocdsnPhone": "",
+    "altpocName": "",
+    "altpocEmail": "",
+    "altpocPhone1": "",
+    "altpocPhone2": "",
+    "altpocdsnPhone": ""
+
+  },
+  {
+    "contactId": "000002",
+    "pocTitle": "craziness",
+    "pocName": "mars operator",
+    "pocEmail": "usarmy.mcalester.usamc.mbx.dac-atrrs-registrar@army.mil",
+    "pocPhone1": "918-420-8707",
+    "pocPhone2": "918-420-8489",
+    "pocdsnPhone": "956-8707",
+    "altpocName": "",
+    "altpocEmail": "",
+    "altpocPhone1": "",
+    "altpocPhone2": "",
+    "altpocdsnPhone": ""
+  }
+]

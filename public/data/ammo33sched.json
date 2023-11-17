@@ -1,0 +1,62 @@
+[
+  {
+    "classId": "00001",
+    "startDate": "10/26/2023",
+    "stopDate": "10/26/2023",
+    "location": "Wash Navy Yard, DC",
+    "classNumb": "701",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00002",
+    "startDate": "01/09/2024",
+    "stopDate": "01/09/2024",
+    "location": "San Diego, CA",
+    "classNumb": "702",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00003",
+    "startDate": "03/14/2024",
+    "stopDate": "03/14/2024",
+    "location": "Wash Navy Yard, DC",
+    "classNumb": "703",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00004",
+    "startDate": "05/16/2024",
+    "stopDate": "05/16/2024",
+    "location": "Wash Navy Yard, DC",
+    "classNumb": "704",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00005",
+    "startDate": "07/09/2024",
+    "stopDate": "07/09/2024",
+    "location": "Norfolk, VA",
+    "classNumb": "705",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00006",
+    "startDate": "08/08/2024",
+    "stopDate": "08/08/2024",
+    "location": "Wash Navy Yard, DC",
+    "classNumb": "706",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  }
+]

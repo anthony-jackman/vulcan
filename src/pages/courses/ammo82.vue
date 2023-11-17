@@ -1,82 +1,19 @@
 <script setup>
 import ContactInfo from '@/components/ContactModal.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const modalActive = ref(false);
 const selectedContactId = ref('');
-const skedDatas = [
-  {
-    "classId": "00001",
-    "startDate": "08/21/2023",
-    "stopDate": "09/01/2023",
-    "location": "McAlester, OK",
-    "classNumb": "003",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00002",
-    "startDate": "01/30/2024",
-    "stopDate": "02/09/2024",
-    "location": "McAlester, OK",
-    "classNumb": "001",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00003",
-    "startDate": "05/06/2024",
-    "stopDate": "05/17/2024",
-    "location": "McAlester, OK",
-    "classNumb": "002",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00004",
-    "startDate": "08/12/2024",
-    "stopDate": "08/23/2024",
-    "location": "McAlester, OK",
-    "classNumb": "003",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  }
-];
-const sitePocs = ref([
-  {
-    "contactId": '000001',
-    "pocTitle": 'For Registration Availability for this course at McAlester, OK',
-    "pocName": 'DAC ATRRS Desk',
-    "pocEmail": 'usarmy.mcalester.usamc.mbx.dac-atrrs-registrar@army.mil',
-    "pocPhone1": '918-420-8707',
-    "pocPhone2": '918-420-8489',
-    "pocdsnPhone": '956-8707',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
+let skedDatas = ref([]);
+let sitePocs = ref([]);
 
-  },
-  {
-    "contactId": '000002',
-    "pocTitle": 'craziness',
-    "pocName": 'mars operator',
-    "pocEmail": 'usarmy.mcalester.usamc.mbx.dac-atrrs-registrar@army.mil',
-    "pocPhone1": '918-420-8707',
-    "pocPhone2": '918-420-8489',
-    "pocdsnPhone": '956-8707',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
-  }
-]);
+onMounted(async () => {
+  const responseSkedData = await fetch('/data/ammo82sched.json');
+  skedDatas.value = await responseSkedData.json();
+
+  const responseSitePocs = await fetch('/data/ammo82poc.json');
+  sitePocs.value = await responseSitePocs.json();
+});
 
 const filteredContact = computed(() => {
   if (selectedContactId.value) {

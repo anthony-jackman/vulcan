@@ -1,0 +1,42 @@
+[
+  {
+    "classId": "00001",
+    "startDate": "09/25/2023",
+    "stopDate": "09/28/2023",
+    "location": "McAlester, OK",
+    "classNumb": "001",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00002",
+    "startDate": "12/11/2023",
+    "stopDate": "12/14/2023",
+    "location": "McAlester, OK",
+    "classNumb": "001",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00003",
+    "startDate": "01/22/2024",
+    "stopDate": "01/25/2024",
+    "location": "McAlester, OK",
+    "classNumb": "002",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00004",
+    "startDate": "06/24/2024",
+    "stopDate": "06/27/2024",
+    "location": "McAlester, OK",
+    "classNumb": "003",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  }
+]

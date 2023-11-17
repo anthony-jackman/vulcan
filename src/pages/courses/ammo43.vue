@@ -1,92 +1,19 @@
 <script setup>
 import ContactInfo from '@/components/ContactModal.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const modalActive = ref(false);
 const selectedContactId = ref('');
-const skedDatas = [
-  {
-    "classId": "00001",
-    "startDate": "09/25/2023",
-    "stopDate": "09/27/2023",
-    "location": "McAlester, OK",
-    "classNumb": "002",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00002",
-    "startDate": "08/13/2024",
-    "stopDate": "08/15/2024",
-    "location": "McAlester, OK",
-    "classNumb": "002",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00003",
-    "startDate": "03/05/2024",
-    "stopDate": "03/07/2024",
-    "location": "McAlester, OK",
-    "classNumb": "003",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00004",
-    "startDate": "04/16/2024",
-    "stopDate": "04/18/2024",
-    "location": "Gulfport, MS",
-    "classNumb": "701",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000002"
-  },
-  {
-    "classId": "00005",
-    "startDate": "06/04/2024",
-    "stopDate": "06/06/2024",
-    "location": "Gulfport, MS",
-    "classNumb": "703",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000002"
-  }
-];
-const sitePocs = ref([
-  {
-    "contactId": '000001',
-    "pocTitle": 'For Registration Availability for this course at McAlester, OK',
-    "pocName": 'DAC ATRRS Desk',
-    "pocEmail": 'usarmy.mcalester.usamc.mbx.dac-atrrs-registrar@army.mil',
-    "pocPhone1": '918-420-8707',
-    "pocPhone2": '918-420-8489',
-    "pocdsnPhone": '956-8707',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
+let skedDatas = ref([]);
+let sitePocs = ref([]);
 
-  },
-  {
-    "contactId": '000002',
-    "pocTitle": 'For Registration Availability for this course at McAlester, OK',
-    "pocName": 'William Loveall',
-    "pocEmail": 'william.loveall@navy.mil',
-    "pocPhone1": '228-871-2667',
-    "pocPhone2": '',
-    "pocdsnPhone": '868-2667',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
-  }
-]);
+onMounted(async () => {
+  const responseSkedData = await fetch('/data/ammo43sched.json');
+  skedDatas.value = await responseSkedData.json();
+
+  const responseSitePocs = await fetch('/data/ammo43poc.json');
+  sitePocs.value = await responseSitePocs.json();
+});
 
 const filteredContact = computed(() => {
   if (selectedContactId.value) {
