@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Support Activity Bahrain, Manama, Kingdom of Bahrain</h2>
+  <h2 class="title has-text-centered mt-3">Naval Support Activity Bahrain, Manama, Kingdom of Bahrain</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2> Jack Black, <a href="mailto:jack.black@me.navy.mil" target="_blank">jack.black@me.navy.mil</a> 
@@ -23,7 +19,3 @@ Classroom #2
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

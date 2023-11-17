@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Air Station Sigonella, Sigonella Italy</h2>
+  <h2 class="title has-text-centered mt-3">Naval Air Station Sigonella, Sigonella Italy</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2> Marlon Gomez DSN 314-624-6261
@@ -25,7 +21,3 @@
 
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

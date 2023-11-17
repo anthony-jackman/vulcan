@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Okinawa, Japan</h2>
+  <h2 class="title has-text-centered mt-3">Okinawa, Japan</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2>  DSN 622-0015
@@ -19,7 +15,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

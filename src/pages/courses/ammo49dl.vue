@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <h1 class="title has-text-centered mt-3">AMMO-49-DL Naval Explosives Safety Managers/Supervisors Orientation (CERT) (4E-F39/645-F23 (DL))</h1>
     <section id="register" class="buttons columns">
@@ -50,12 +46,3 @@
     </div>
     </section>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-button {
-  background-color: #B7AE5E;
-}
-</style>

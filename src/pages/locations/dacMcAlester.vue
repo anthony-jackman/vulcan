@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Defense Ammunition Center, McAlester, OK</h2>
+  <h2 class="title has-text-centered mt-3">Defense Ammunition Center, McAlester, OK</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Useful Links:</h2> 
@@ -11,7 +7,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

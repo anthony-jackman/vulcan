@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Air Station Oceana, Virginia Beach, VA</h2>
+  <h2 class="title has-text-centered mt-3">Naval Air Station Oceana, Virginia Beach, VA</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Geographical Location:</h2> Classes are hosted by Virginia Beach Storefront Safety Office at Oceana Naval Air Station. The nearest airport is Norfolk International. To get to the base from the airport, take Highway 64 East to Highway 264 East (VA Beach). Follow Highway 264 East to First Colonial Road Exit. Take the first exit at First Colonial Road, which will eventually turn into Oceana Blvd. Continue down Oceana Blvd., and follow NAS Oceana signs to the front gate.
@@ -42,7 +38,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

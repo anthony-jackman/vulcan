@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <h1 class="title has-text-centered mt-3">AMMO-47-DL Air Force Electrical Explosive Safety (4E-F38/645-F22 (DL))</h1>
     <section id="register" class="buttons columns">
@@ -9,7 +5,6 @@
       <div class="column is-1 is-offset-5">
         <button class="button"><a href='https://www.atrrs.army.mil/atrrscc/courseInfo.aspx?fy=2024&sch=910&crs=4E-F38/645-F22+(DL)&crstitle=AIR+FORCE+ELECTRICAL+EXPLOSIVE+SAFETY+(CERT)&phase=' target='_blank'>Register for Course</a></button>
       </div>
-      <!-- <div class="column is-one-third"></div> -->
     </section>
     <section id="isap" class="has-background-grey-lighter has-text-grey-dark has-text-centered block">
       <p>Ungraded knowledge checks are distributed throughout the content to provide students with immediate feedback about their level of understanding in each topic. Graded multiple choice questions are provided at the end of each course. 75% of these must be answered correctly to complete the course. After three unsuccessful attempts to do so, the course will be marked as unsuccessful.</p>
@@ -46,14 +41,5 @@
         <li>Inspection and Testing</li>
       </ul>
     </div>
-    </section>
+  </section>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-button {
-  background-color: #B7AE5E;
-}
-</style>

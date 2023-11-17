@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Expeditionary Warfare Training Group (EWTGLANT)<br />
+  <h2 class="title has-text-centered mt-3">Expeditionary Warfare Training Group (EWTGLANT)<br />
   Naval Amphibious Base Little Creek, VA</h2>
 
 <section class="block">
@@ -34,7 +30,3 @@ Norfolk, VA 23521-2743<br />
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

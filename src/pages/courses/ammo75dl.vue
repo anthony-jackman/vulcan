@@ -1,18 +1,14 @@
-<script setup>
-
-</script>
-
 <template>
-    <h1 class="title has-text-centered mt-3">AMMO-75-DL Ammunition Physical Security (4E-F49/645-F33 (DL))</h1>
-    <section id="register" class="buttons columns">
-      <!-- <div class="column is-one-third"></div> -->
-      <div class="column is-1 is-offset-5">
-        <button class="button"><a href='https://www.atrrs.army.mil/atrrscc/courseInfo.aspx?fy=2024&sch=910&crs=4E-F49%2f645-F33+(DL)&crstitle=AMMUNITION+PHYSICAL+SECURITY&phase=' target='_blank'>Register for Course</a></button>
-      </div>
-      <!-- <div class="column is-one-third"></div> -->
-    </section>
-    <section id="isap" class="has-background-grey-lighter has-text-grey-dark has-text-centered block">
-      <p>Ungraded knowledge checks are distributed throughout the content to provide students with immediate feedback about their level of understanding in each topic. Graded multiple choice questions are provided at the end of each course. 75% of these must be answered correctly to complete the course. After three unsuccessful attempts to do so, the course will be marked as unsuccessful.</p>
+  <h1 class="title has-text-centered mt-3">AMMO-75-DL Ammunition Physical Security (4E-F49/645-F33 (DL))</h1>
+  <section id="register" class="buttons columns">
+    <!-- <div class="column is-one-third"></div> -->
+    <div class="column is-1 is-offset-5">
+      <button class="button"><a href='https://www.atrrs.army.mil/atrrscc/courseInfo.aspx?fy=2024&sch=910&crs=4E-F49%2f645-F33+(DL)&crstitle=AMMUNITION+PHYSICAL+SECURITY&phase=' target='_blank'>Register for Course</a></button>
+    </div>
+    <!-- <div class="column is-one-third"></div> -->
+  </section>
+  <section id="isap" class="has-background-grey-lighter has-text-grey-dark has-text-centered block">
+    <p>Ungraded knowledge checks are distributed throughout the content to provide students with immediate feedback about their level of understanding in each topic. Graded multiple choice questions are provided at the end of each course. 75% of these must be answered correctly to complete the course. After three unsuccessful attempts to do so, the course will be marked as unsuccessful.</p>
   </section>
     <section id="description" class="block">
       <h2 class="subtitle is-inline is-bold">Description: </h2>This course satisfies functional training requirements for personnel who require a fundamental understanding of physical security requirements for ammunition and explosives. Course content includes a comprehensive review of regulatory guidance applicable to Department of Army physical security program requirements for the storage of ammunition and explosives. This course specifically provides training on the interpretation and application of AR 190-11 (Physical Security of Arms, Ammunition, and Explosives) and FEDLOG to determine Controlled Item Inventory Codes (CIICs) and associated security risk categories, physical security measures for ammunition and explosives sites, and special requirements for Security Risk Categories I and II.
@@ -32,9 +28,9 @@
     <section id="secClnc" class="block">
     <h2 class="subtitle is-inline is-bold">Security Clearance: </h2>None required.
   </section>
-    <section id="crseTopics" class="block">
-      <h2 class="subtitle is-inline is-bold">Course Topics: </h2>
-      <div class="content">
+  <section id="crseTopics" class="block">
+    <h2 class="subtitle is-inline is-bold">Course Topics: </h2>
+    <div class="content">
       <ul>
         <li>Introduction to Physical Security</li>
         <li>Entry Control</li>
@@ -44,14 +40,5 @@
         <li>Inspections</li>
       </ul>
     </div>
-    </section>
+  </section>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-button {
-  background-color: #B7AE5E;
-}
-</style>

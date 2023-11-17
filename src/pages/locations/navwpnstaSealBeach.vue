@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Weapon Station Seal Beach, CA</h2>
+  <h2 class="title has-text-centered mt-3">Naval Weapon Station Seal Beach, CA</h2>
 
 <section class="block">
   Point of Contact: DSN 873-7400, Commercial (562) 626-7400
@@ -42,7 +38,3 @@
 </section>
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

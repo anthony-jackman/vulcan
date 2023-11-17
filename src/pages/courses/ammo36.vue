@@ -139,7 +139,7 @@ function closeModal() {
   <section id="audience" class="block">
     <h2 class="subtitle is-inline is-bold">Audience: </h2>Navy/Marine Corps facility planners responsible for overseeing explosives facilities at shore installations, safety department personnel responsible for conducting facility site plan reviews, and personnel within the review chain of a typical Navy/Marine Corps explosives facility site plan as prescribed by DoDI 5160.68 and NAVSEA OP 5, Volume 1. <span class="has-text-weight-bold has-text-danger">NOTE:</span> This course is rated FD3 and not available to International Military Students.
   </section>
-    <section id="crseLngth" class="block">
+  <section id="crseLngth" class="block">
     <h2 class="subtitle is-inline is-bold">Length: </h2>5 Days.
   </section>
   <section id="specInfo" class="block">
@@ -238,9 +238,3 @@ function closeModal() {
     </ContactInfo>
   </Teleport>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-</style>

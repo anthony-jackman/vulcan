@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
-  <h1 class="title has-text-centered">Communities of Practices</h1>
+  <h1 class="title has-text-centered mt-3">Communities of Practices</h1>
   <hr class="divider"/>
   <h2 class="subtitle">MUNITIONS AND EXPLOSIVES SAFETY</h2>
   <div class="columns">
@@ -15,12 +13,3 @@
     </section>
   </div>
 </template>
-
-<style lang="scss" scoped>
-//  li {
-//   list-style-type: disc;
-//   &:last-of-type {
-//     margin-bottom: 1.125rem
-//   }
-//  }
- </style>

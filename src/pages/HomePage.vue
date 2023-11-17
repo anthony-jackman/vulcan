@@ -1,12 +1,11 @@
 <script setup>
-  import { RouterLink } from 'vue-router';
   import MenuCard from '@/components/MenuCard.vue';
-
 </script>
 
 <template>
+  <div class="homepage">
   <section>
-    <h1 class="title has-text-centered">Welcome to DAC Training</h1>
+    <h1 class="title has-text-centered mt-3">Welcome to DAC Training</h1>
     <p class="whoarewe">
       The Defense Ammunition Center and US Army Technical Center for
       explosives Safety (DACTCES) provides worldwide support with technical
@@ -47,19 +46,5 @@
       </RouterLink>
     </div>
   </section>
-
+  </div>
 </template>
-
-<style lang="scss" scoped>
-.whoarewe {
-  font-size: 1.125rem;
-}
- .title, .subtitle {
-    margin-top: 1rem;
- }
-.bigbutton {
-  height: 200px;
-  width: 200px;
-}
-
-</style>

@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Staion Norfolk, Norfolk VA</h2>
+  <h2 class="title has-text-centered mt-3">Naval Staion Norfolk, Norfolk VA</h2>
 
 <section class="block">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2> Robert Upton<br />DSN: 546-9910, Commercial (757) 444-9910
@@ -26,7 +22,3 @@
 
 
 </template>
-
-<style lang='scss' scoped>
-
-</style>

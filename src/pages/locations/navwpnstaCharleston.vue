@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h2 class="title has-text-centered">Naval Weapon Station Charleston, Charleston, SC</h2>
+  <h2 class="title has-text-centered mt-3">Naval Weapon Station Charleston, Charleston, SC</h2>
 
 <section class="section pb-1">
   <h2 class="subtitle is-inline is-bold">Point of Contact:</h2> Point of contact for clarification of this information is Isaac Dingle, office at (843) 764-7223 or cell at (843) 709-1077.
@@ -73,9 +69,3 @@ Goose Creek, SC. 29445-8601
 
 
 </template>
-
-<style lang='scss' scoped>
-#directions ol {
-  list-style: disc;
-}
-</style>

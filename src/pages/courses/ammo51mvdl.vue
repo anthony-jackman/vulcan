@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <h1 class="title has-text-centered mt-3">AMMO-51-MV-DL Naval Motor Vehicle Inspection (CERT) (4E-F42/645-F26 (DL))</h1>
     <section id="register" class="buttons columns">
@@ -48,12 +44,3 @@
     </div>
     </section>
 </template>
-
-<style lang="scss" scoped>
-// #crseTopics ul {
-//   list-style: disc;
-// }
-button {
-  background-color: #B7AE5E;
-}
-</style>
