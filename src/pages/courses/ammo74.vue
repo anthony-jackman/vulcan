@@ -1,106 +1,19 @@
 <script setup>
 import ContactInfo from '@/components/ContactModal.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const modalActive = ref(false);
 const selectedContactId = ref('');
-const skedDatas = [
-  {
-    "classId": "00001",
-    "startDate": "08/08/2023",
-    "stopDate": "08/17/2023",
-    "location": "Norfolk, VA",
-    "classNumb": "702",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000002"
-  },
-  {
-    "classId": "00002",
-    "startDate": "09/12/2023",
-    "stopDate": "09/21/2023",
-    "location": "McAlester, OK",
-    "classNumb": "001",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00003",
-    "startDate": "09/17/2024",
-    "stopDate": "09/26/2023",
-    "location": "McAlester, OK",
-    "classNumb": "001",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00004",
-    "startDate": "02/06/2024",
-    "stopDate": "02/06/2024",
-    "location": "San Diego, CA",
-    "classNumb": "701",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000003"
-  },
-  {
-    "classId": "00005",
-    "startDate": "06/03/2024",
-    "stopDate": "06/03/2024",
-    "location": "Norfolk, VA",
-    "classNumb": "702",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000002"
-  }
-];
-const sitePocs = ref([
-  {
-    "contactId": '000001',
-    "pocTitle": 'For Registration Availability for this course at McAlester, OK',
-    "pocName": 'DAC ATRRS Desk',
-    "pocEmail": 'usarmy.mcalester.usamc.mbx.dac-atrrs-registrar@army.mil',
-    "pocPhone1": '918-420-8707',
-    "pocPhone2": '918-420-8489',
-    "pocdsnPhone": '956-8707',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
+let skedDatas = ref([]);
+let sitePocs = ref([]);
 
-  },
-  {
-    "contactId": '000002',
-    "pocTitle": 'For Registration Availability for this course at Norfolk NB, VA',
-    "pocName": 'Mr. Nikiha Miller',
-    "pocEmail": 'nikiha.miller@navy.mil',
-    "pocPhone1": '757-462-1710',
-    "pocPhone2": 'ext 3016',
-    "pocdsnPhone": '',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
-  },
-  {
-    "contactId": '000003',
-    "pocTitle": 'For Registration Availability for this course at San Diego, CA',
-    "pocName": 'Larry Darnell',
-    "pocEmail": '',
-    "pocPhone1": '301-744-6089',
-    "pocPhone2": '',
-    "pocdsnPhone": '',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
-  }
-]);
+onMounted(async () => {
+  const responseSkedData = await fetch('/data/ammo74sched.json');
+  skedDatas.value = await responseSkedData.json();
+
+  const responseSitePocs = await fetch('/data/ammo74poc.json');
+  sitePocs.value = await responseSitePocs.json();
+});
 
 const filteredContact = computed(() => {
   if (selectedContactId.value) {

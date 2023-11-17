@@ -1,102 +1,19 @@
 <script setup>
 import ContactInfo from '@/components/ContactModal.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const modalActive = ref(false);
 const selectedContactId = ref('');
-const skedDatas = [
-  {
-    "classId": "00001",
-    "startDate": "10/26/2023",
-    "stopDate": "10/26/2023",
-    "location": "Wash Navy Yard, DC",
-    "classNumb": "701",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00002",
-    "startDate": "01/09/2024",
-    "stopDate": "01/09/2024",
-    "location": "San Diego, CA",
-    "classNumb": "702",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00003",
-    "startDate": "03/14/2024",
-    "stopDate": "03/14/2024",
-    "location": "Wash Navy Yard, DC",
-    "classNumb": "703",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00004",
-    "startDate": "05/16/2024",
-    "stopDate": "05/16/2024",
-    "location": "Wash Navy Yard, DC",
-    "classNumb": "704",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00005",
-    "startDate": "07/09/2024",
-    "stopDate": "07/09/2024",
-    "location": "Norfolk, VA",
-    "classNumb": "705",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
-    "classId": "00006",
-    "startDate": "08/08/2024",
-    "stopDate": "08/08/2024",
-    "location": "Wash Navy Yard, DC",
-    "classNumb": "706",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  }
-];
-const sitePocs = ref([
-  {
-    "contactId": '000001',
-    "pocTitle": 'For Registration Availability for this Navy course',
-    "pocName": 'NOSSA Registrar',
-    "pocEmail": 'https://nossa.dc3n.navy.mil/nrws3/',
-    "pocPhone1": '',
-    "pocPhone2": '',
-    "pocdsnPhone": '',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
+let skedDatas = ref([]);
+let sitePocs = ref([]);
 
-  },
-  {
-    "contactId": '000002',
-    "pocTitle": 'craziness',
-    "pocName": 'mars operator',
-    "pocEmail": 'usarmy.mcalester.usamc.mbx.dac-atrrs-registrar@army.mil',
-    "pocPhone1": '918-420-8707',
-    "pocPhone2": '918-420-8489',
-    "pocdsnPhone": '956-8707',
-    "altpocName": '',
-    "altpocEmail": '',
-    "altpocPhone1": '',
-    "altpocPhone2": '',
-    "altpocdsnPhone": ''
-  }
-]);
+onMounted(async () => {
+  const responseSkedData = await fetch('/data/ammo33sched.json');
+  skedDatas.value = await responseSkedData.json();
+
+  const responseSitePocs = await fetch('/data/ammo33poc.json');
+  sitePocs.value = await responseSitePocs.json();
+});
 
 const filteredContact = computed(() => {
   if (selectedContactId.value) {
@@ -190,7 +107,7 @@ function closeModal() {
       <tfoot></tfoot>
       <tbody>
         <tr v-if="skedDatas.length === 0">
-          <td colspan="6">No classes scheduled at this time</td>
+          <td colspan="6" class="has-text-centered">No classes scheduled at this time</td>
         </tr>
         <tr v-else v-for="(skedData, index) in skedDatas" :key="index">
           <td>{{ skedData.startDate }}</td>

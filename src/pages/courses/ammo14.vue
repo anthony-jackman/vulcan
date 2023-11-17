@@ -1,11 +1,38 @@
 <script setup>
 import ContactInfo from '@/components/ContactModal.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const modalActive = ref(false);
 const selectedContactId = ref('');
-const skedDatas = [];
-const sitePocs = ref([]);
+let skedDatas = ref([]);
+let sitePocs = ref([]);
+
+onMounted(async () => {
+  const responseSkedData = await fetch('/data/ammo14sched.json');
+  skedDatas.value = await responseSkedData.json();
+
+  const responseSitePocs = await fetch('/data/ammo14poc.json');
+  sitePocs.value = await responseSitePocs.json();
+});
+
+const filteredContact = computed(() => {
+  if (selectedContactId.value) {
+    console.log(selectedContactId)
+    return sitePocs.value.filter((poc) => poc.contactId === selectedContactId.value);
+    
+  } else {
+    return [];
+  }
+});
+function toggleModal() {
+  // console.log('I was clicked');
+  modalActive.value = true;
+  //console.log(btnPressed());
+}
+
+function closeModal() {
+  modalActive.value = false;
+};
 </script>
 
 <template>
@@ -63,7 +90,7 @@ const sitePocs = ref([]);
       <tfoot></tfoot>
       <tbody>
         <tr v-if="skedDatas.length === 0">
-          <td colspan="6">No classes scheduled at this time</td>
+          <td colspan="6" class="has-text-centered">No classes scheduled at this time</td>
         </tr>
         <tr v-else v-for="skedData in skedDatas" :key="skedData.classId">
           <td>{{ skedData.startDate }}</td>
