@@ -6,10 +6,11 @@ import SiteFooter from '@/components/SiteFooter.vue';
 </script>
 
 <template>
-  <div>
-    <header>
-      <NavBar />
-      <HeroBar />
+
+  <!-- <div> -->
+    <header class="main-header">
+      <NavBar class="navbar has-background-black" />
+      <HeroBar class="hero is-medium has-background-grey-light" />
     </header>
 
     <main class="container mb-6">
@@ -20,10 +21,6 @@ import SiteFooter from '@/components/SiteFooter.vue';
       <SiteFooter class="content" />
     </footer>
 
-  </div>
+  <!-- </div> -->
 </template>
 
-<style lang="scss" scoped>
-
-
-</style>

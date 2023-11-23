@@ -63,7 +63,17 @@
     }
   }
 }
-
+// .maincont {
+//   @media (max-width: 768px) {
+//   .mt-3-mobile {
+//     margin-top: 1.5rem;
+//   }
+// }
+// }
+.main-header {
+  display: flex;
+  flex-direction: column;
+}
 .homepage {
   .whoarewe {
     font-size: 1.125rem;
@@ -92,11 +102,6 @@
         color: #DD3F28;
         font-weight: 200;
       }
-      .logo {
-        width: 38px;
-        height: 65px;
-        margin-right: 5px;
-      }
     }
     .navbar-burger {
       color: #DD3F28;
@@ -114,9 +119,11 @@
 }
 
 .hero {
-  height: 143px;
   border-bottom: 0.25em #dfda8d solid;
 }
+// .hero-body {
+//   border: 3px solid red;
+// }
 
 #directions ol {
   list-style: disc;
