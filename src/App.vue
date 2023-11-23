@@ -14,7 +14,9 @@ import SiteFooter from '@/components/SiteFooter.vue';
     </header>
 
     <main class="container mb-6">
-      <RouterView />
+      <div class="ml-2-mobile">
+        <RouterView />
+      </div>
     </main>
 
     <footer class="footer has-background-grey-light">
