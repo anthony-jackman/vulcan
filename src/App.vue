@@ -19,8 +19,8 @@ import SiteFooter from '@/components/SiteFooter.vue';
       </div>
     </main>
 
-    <footer class="footer has-background-grey-light">
-      <SiteFooter class="content" />
+    <footer class="footer-container has-background-grey-light">
+      <SiteFooter />
     </footer>
 
   <!-- </div> -->
