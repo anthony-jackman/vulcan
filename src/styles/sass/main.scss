@@ -63,7 +63,17 @@
     }
   }
 }
-
+// .maincont {
+//   @media (max-width: 768px) {
+//   .mt-3-mobile {
+//     margin-top: 1.5rem;
+//   }
+// }
+// }
+.main-header {
+  display: flex;
+  flex-direction: column;
+}
 .homepage {
   .whoarewe {
     font-size: 1.125rem;
@@ -92,11 +102,6 @@
         color: #DD3F28;
         font-weight: 200;
       }
-      .logo {
-        width: 38px;
-        height: 65px;
-        margin-right: 5px;
-      }
     }
     .navbar-burger {
       color: #DD3F28;
@@ -114,9 +119,11 @@
 }
 
 .hero {
-  height: 143px;
   border-bottom: 0.25em #dfda8d solid;
 }
+// .hero-body {
+//   border: 3px solid red;
+// }
 
 #directions ol {
   list-style: disc;
@@ -165,6 +172,55 @@
 // @import "./fontawesome-free/scss/regular.scss";
 // @import "./fontawesome-free/scss/solid.scss";
 // @import "./fontawesome-free/scss/brands.scss";
+
+.footer-container {
+  border-top: 0.25em #dfda8d solid;
+  // border: 2px solid red;
+  height: 80vh; /* This will make the footer take up 80% of the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#dacLogo {
+  img {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+#footer-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#armyLogo {
+  img {
+    width: 261px;
+    height: 59px;
+    // width: 4217px;
+    // height: 996px;
+    margin-top: 1.5rem;
+  }
+}
+@media (max-width: 1023px) { /* Bulma's $mobile in portrait mode and smaller breakpoint */
+  .ml-2-mobile {
+    margin-left: 0.625rem;
+  }
+}
+@media (min-width: 1023px) { /* Bulma's $tablet in landscape mode and wider breakpoint */
+  .footer-container {
+    height: 40vh;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #dacLogo {
+    margin-right: 4rem;
+  }
+  #armyLogo {
+    margin-left: 4rem;
+  }
+}
 
 @import './vue3-rich-accordion/dist/accordion-library-styles.scss';
 

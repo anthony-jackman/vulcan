@@ -6,24 +6,23 @@ import SiteFooter from '@/components/SiteFooter.vue';
 </script>
 
 <template>
-  <div>
-    <header>
-      <NavBar />
-      <HeroBar />
+
+  <!-- <div> -->
+    <header class="main-header">
+      <NavBar class="navbar has-background-black" />
+      <HeroBar class="hero is-medium has-background-grey-light" />
     </header>
 
     <main class="container mb-6">
-      <RouterView />
+      <div class="ml-2-mobile">
+        <RouterView />
+      </div>
     </main>
 
-    <footer class="footer has-background-grey-light">
-      <SiteFooter class="content" />
+    <footer class="footer-container has-background-grey-light">
+      <SiteFooter />
     </footer>
 
-  </div>
+  <!-- </div> -->
 </template>
 
-<style lang="scss" scoped>
-
-
-</style>

@@ -24,7 +24,7 @@
 </script>
 
 <template>
-  <nav class="navbar is-fixed-top is-transparent has-background-black" role="navigation" aria-label="main navigation">
+  <nav aria-label="main navigation">
     <div class="navbar-brand">
       <!-- <a id="logoText" class="navbar-item" href="https://defenseammunitioncenter.army.mil">
         <img alt="DAC logo" class="logo" src="@/assets/icons/DAC_high_FX.png" />
