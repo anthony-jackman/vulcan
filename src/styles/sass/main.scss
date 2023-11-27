@@ -63,17 +63,11 @@
     }
   }
 }
-// .maincont {
-//   @media (max-width: 768px) {
-//   .mt-3-mobile {
-//     margin-top: 1.5rem;
-//   }
-// }
-// }
 .main-header {
   display: flex;
   flex-direction: column;
 }
+
 .homepage {
   .whoarewe {
     font-size: 1.125rem;
@@ -121,9 +115,6 @@
 .hero {
   border-bottom: 0.25em #dfda8d solid;
 }
-// .hero-body {
-//   border: 3px solid red;
-// }
 
 #directions ol {
   list-style: disc;
@@ -149,29 +140,49 @@
     margin-bottom: 0rem
   }
 }
-.mobileapps {
-  li {
-    list-style-type: disc;
-    &:last-of-type {
-      margin-bottom: 1.125rem
-    }
-  }
-  .appStores button {
-      margin-right: 1.125rem
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+#appdescript {
+  flex: 2;
+}
+
+#appIcon {
+  display: flex;
+  flex-direction:column;
+  align-items: start;
+  img {
+    width: 15em;
   }
 }
+#appStores {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  button {
+    margin-right: 1.125rem;
+  }
+}
+#appTopics {
+  margin-top: 1.125rem;
+  li {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+    &:last-of-type {
+      margin-bottom: 1.125rem;
+    }
+  }
+} 
+
 .pubreqs ul {
   list-style: disc;
 }
+
 #register button {
   background-color: #B7AE5E;
 }
-// This needs a path reference as if it was being served to browser
-// $fa-font-path: "assets";
-// @import "./fontawesome-free/scss/fontawesome.scss";
-// @import "./fontawesome-free/scss/regular.scss";
-// @import "./fontawesome-free/scss/solid.scss";
-// @import "./fontawesome-free/scss/brands.scss";
 
 .footer-container {
   border-top: 0.25em #dfda8d solid;
@@ -181,6 +192,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 #dacLogo {
   img {
     width: 125px;
@@ -203,12 +215,21 @@
     margin-top: 1.5rem;
   }
 }
+
 @media (max-width: 1023px) { /* Bulma's $mobile in portrait mode and smaller breakpoint */
   .ml-2-mobile {
     margin-left: 0.625rem;
+  };
+  #appStores {
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    button:last-of-type {
+      margin-top: 1.125rem;
+    }
   }
 }
-@media (min-width: 1023px) { /* Bulma's $tablet in landscape mode and wider breakpoint */
+@media (min-width: 1024px) { /* Bulma's $tablet in landscape mode and wider breakpoint */
   .footer-container {
     height: 40vh;
     flex-direction: row;
