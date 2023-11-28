@@ -2,6 +2,22 @@
   <h2 class="title has-text-centered mt-3">Online Training</h2>
   <hr />
   <div class="courselist">
+
+    <section class="mb-5 has-background-danger-light">
+      <h2 class="pt-3 subtitle has-text-centered has-text-danger has-text-weight-semibold">Army Learning Management System (ALMS)</h2>
+      <div id='advisory'>
+        <div class="advisoryicon">
+          <img src="@/assets/icons/warningSymbol.png" :alt="'yellow background triangle with black exclamation point in center'" />
+        </div>
+        <div class="advisorytext">
+          <p class="pl-4 pr-4 pb-4">On or around the 2nd quarter of FY24, the Army Learning Management System (ALMS) will become the Army Training Information System (ATIS). A sneak peek is available at <a href='https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4' target='_blank'>https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4</a>. Please be prepared for up to two weeks of system downtime, possibly beginning in January 2024. Note DAC is NOT the proponent for ALMS, ATIS, or the transition, but we will do our best to provide current information to learners as it becomes available. Training records (and progress) should carry over from ALMS to ATIS upon completion of the transition.</p>
+        </div>
+        <div class="advisoryicon">
+          <img src="@/assets/icons/warningSymbol.png" alt="yellow background triangle with black exclamation point in center" />
+        </div>
+      </div>
+    </section>
+
     <p>Before you register, refer to <a href='/docs/alms_registration_steps_2022dec08.pdf' target='_blank'>ALMS Registration Steps document</a> (PDF format) that will provide step-by-step instructions for registering for online training and accessing your course in the ALMS.</p>
     <p><strong>Helpdesk:</strong> You can receive assistance for online training courses by using this site's useful <RouterLink :to="{ name: 'faq' }">Frequently Asked Questions (FAQ) page</RouterLink> or by contacting the Army Training Help Desk at 1-877-251-0730 or (DSN) 826-4745; 24/7, 365 days per year.</p>
     <table class="table is-fullwidth is-striped is-hoverable">

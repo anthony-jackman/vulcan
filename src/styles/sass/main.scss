@@ -139,11 +139,17 @@
   p:last-of-type {
     margin-bottom: 0rem
   }
+};
+
+#advisory {
+  display: flex;
+  flex-direction: row;
 }
+
 .flex-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
 }
 #appdescript {
   flex: 2;
@@ -227,6 +233,9 @@
     button:last-of-type {
       margin-top: 1.125rem;
     }
+  };
+  .advisoryicon {
+    display:none
   }
 }
 @media (min-width: 1024px) { /* Bulma's $tablet in landscape mode and wider breakpoint */
@@ -240,6 +249,15 @@
   }
   #armyLogo {
     margin-left: 4rem;
+  }
+  .advisoryicon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 15rem;
+      padding-top: 1.5rem;
+    }
   }
 }
 
