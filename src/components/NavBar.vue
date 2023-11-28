@@ -43,7 +43,7 @@
 
       <div class="navbar-end has-background-black">
         <RouterLink :to="{ name: 'home' }" class='navbar-item'>Home</RouterLink>
-        <RouterLink :to="{ name: 'classroom' }" class='navbar-item'>Classroom Trianing</RouterLink>
+        <RouterLink :to="{ name: 'classroom' }" class='navbar-item'>Classroom Training</RouterLink>
         <RouterLink :to="{ name: 'online' }" class='navbar-item'>Online Training</RouterLink>
         <RouterLink :to="{ name: 'mobileapps' }" class='navbar-item'>Mobile Apps</RouterLink>
         <RouterLink :to="{ name: 'navytrng' }" class='navbar-item'>Navy Training</RouterLink>
