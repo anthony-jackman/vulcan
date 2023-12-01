@@ -29,7 +29,7 @@ function closeModal() {
           <a class="list-item" href='https://www.army.mil/info/a-z' target='_blank'>Army Info A-Z</a>
         </li>
         <li>
-          <a class="list-item" href='mailto:amy.r.cate.civ@army.mil' target='_blank'>Contact Us</a>
+          <a class="list-item" href='mailto:usarmy.mcalester.tradoc.mbx.dac-webmaster@army.mil' target='_blank'>Contact Us</a>
         </li>
         <!-- <li class="has-background-grey-light"><a class="list-item" href='mailto:amy.r.cate.civ@army.mil' target='_blank'>Contact Us</a></li> -->
         <!-- <li class="has-background-grey-light"><a href='mailto:DAC_WEBMASTER@us.army.mil?subject=Feedback from website'>Webmaster</a></li> -->
