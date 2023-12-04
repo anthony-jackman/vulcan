@@ -1,28 +1,8 @@
 [
   {
-    "classId": "00001",
-    "startDate": "08/08/2023",
-    "stopDate": "08/17/2023",
-    "location": "Norfolk, VA",
-    "classNumb": "702",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000002"
-  },
-  {
-    "classId": "00002",
-    "startDate": "09/12/2023",
-    "stopDate": "09/21/2023",
-    "location": "McAlester, OK",
-    "classNumb": "001",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
     "classId": "00003",
     "startDate": "09/17/2024",
-    "stopDate": "09/26/2023",
+    "stopDate": "09/26/2024",
     "location": "McAlester, OK",
     "classNumb": "001",
     "status": "Scheduled",
@@ -49,3 +29,4 @@
     "contact": "Available",
     "contactId": "000002"
   }
+]
