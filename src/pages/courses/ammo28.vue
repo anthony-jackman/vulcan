@@ -45,13 +45,13 @@ function closeModal() {
     <h2 class="subtitle is-inline is-bold">Description: </h2>This course satisfies mandatory training requirements for the certification of personnel involved in the design, installation, test, maintenance, and inspection of electrical equipment, static dissipation systems, lightning protection systems, and bonding for Army explosives facilities as prescribed by DoDI 5160.68, AR 385-10, and DA PAM 385-64. This course provides a comprehensive review of Army guidance and National Fire Protection Association (NFPA) standards governing electrical explosives safety, as well as technical training in the application of explosives safety concepts to include zones of protection, grounding, bonding, static electricity, electrical equipment in hazardous (classified) locations, Hazards of Electromagnetic Radiation to Ordnance (HERO), Fuel (HERF), and Personnel (HERP), and lightning protection system (LPS) inspection and testing standards and criteria. Students will receive hands-on training in operating LPS test equipment to conduct the inspection of an Army explosives storage/operating facility.
   </section>
   <section id="audience" class="block">
-    <h2 class="subtitle is-inline is-bold">Audience: </h2>Personnel involved in the design, installation, test, maintenance, and inspection of electrical equipment, static dissipation systems, lightning protection systems, and bonding for Army explosives facilities as prescribed by DoDI 5160.68, AR 385-10, and DA PAM 385-64 and DA Interns enrolled in Quality Assurance Specialist, Ammunition Surveillance (QASAS) Career Program (CP)-20 or Ammunition Management CP-33 as prescribed by AR 690-50.
+    <h2 class="subtitle is-inline is-bold">Audience: </h2>Personnel involved in the design, installation, test, maintenance, and inspection of electrical equipment, static dissipation systems, lightning protection systems, and bonding for Army explosives facilities as prescribed by DoDI 5160.68, AR 385-10, and DA PAM 385-64; and DA Fellows enrolled in Quality Assurance Specialist (Ammunition Surveillance) - QASAS Functional Community 20 or Ammunition Management Functional Community 33 as prescribed by AR 690-950.
   </section>
     <section id="crseLngth" class="block">
     <h2 class="subtitle is-inline is-bold">Length: </h2>3.5 Days.
   </section>
     <section id="reqEqp" class="block">
-    <h2 class="subtitle is-inline is-bold">Required Equipment: </h2>Students should bring appropriate attire and foot-wear for testing lightning protection systems in a field environment.
+    <h2 class="subtitle is-inline is-bold">Required Equipment: </h2>Students should bring appropriate attire, footwear, and safety glasses for testing lightning protection systems in a field environment. Field conditions only apply to one day during the course.
   </section>
   <section id="prereqs" class="block">
     <h2 class="subtitle is-inline is-bold">Prerequisites: </h2>None.
@@ -63,8 +63,8 @@ function closeModal() {
     <h2 class="subtitle is-inline is-bold">Course Topics:</h2>
     <div class="content">
       <ul>
-      <li>Lightning Protection Systems Regulatory Guidance</li>
       <li>Hazardous Effects of Lightning</li>
+      <li>Lightning Protection Systems Regulatory Guidance</li>
       <li>Lightning Protection Systems</li>
       <li>Zone of Protection</li>
       <li>Strike Termination Devices</li>
