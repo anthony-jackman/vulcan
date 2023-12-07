@@ -9,7 +9,7 @@ import { AccordionList, AccordionItem } from "vue3-rich-accordion";
   <div class="sandbox">
     <div class="sandbox__accordion-block" :style="{ width: accordionBlockWidthPercents + '%' }">
       <AccordionList v-model:state="state">
-        <AccordionItem id="mId1">
+        <!-- <AccordionItem id="mId1">
           <template #summary>Where can I get the DoD root certificate?</template>
           <div>
             <p>
@@ -17,7 +17,7 @@ import { AccordionList, AccordionItem } from "vue3-rich-accordion";
               <a href="https://xxxxxxxx" target="_blank">link to get the certificates</a>
             </p>
           </div>
-        </AccordionItem>
+        </AccordionItem> -->
         <AccordionItem id="mId2">
           <template #summary>What other software do I need to take DAC online training courses?</template>
           <div>
@@ -65,17 +65,33 @@ import { AccordionList, AccordionItem } from "vue3-rich-accordion";
             </ul>
           </div>
         </AccordionItem>
-        <AccordionItem id="mId7">
+        <!-- <AccordionItem id="mId7">
           <template #summary>How do I contact the Army Learning Management System (ALMS) Help Desk?</template>
           <div>
             <p>We need to discuss this 'page'.  second link on live site is very old (2013). first link is broke.</p>
           </div>
-        </AccordionItem>
+        </AccordionItem> -->
         <AccordionItem id="mId8">
           <template #summary>How do I print a certificate of completion?</template>
           <div>
             <p>For courses completed in the ALMS, login to AKO, access the ALMS main page, and select “Detailed Training Records”.  A list of the courses you have completed will appear.  Under “Completion Status”, select “Print Certificate of Completion”.  After the certificate loads, you can print it by using the printer icon on the ALMS webpage and NOT the normal printing from your internet browser.</p>
             <p>For more precise instructions, see this <a href="/docs/how_to_print_certificates_in_alms.pdf" target="_blank">How to Print Certificates</a> (pdf).</p>
+          </div>
+        </AccordionItem>
+        <AccordionItem id="mId9">
+          <template #summary>How do I contact Army Training Helpdesk (ATHD)?</template>
+          <div>
+            <p>To contact the Army Training Help Desk (ATHD):</p>
+            <address>
+              Army Training Help Desk<br />
+              Hours: 24/7, 365 days per year<br />
+              DSN: <a href="tel:826-4745">826-4745</a><br />
+              Primary Toll Free: <a href="tel:18772510730">1-877-251-0730</a><br />
+              Secondary Toll Free: <a href="tel:18002752872">1-800-275-2872</a><br />
+              Commercial: <a href="tel:17578784745">1-757-878-4745</a><br />
+              Select Option #1 for the ALMS
+              <p>Email at <a href="mailto:athd@athdmail.army.mil">athd@athdmail.army.mil</a></p>
+            </address>
           </div>
         </AccordionItem>
       </AccordionList>
