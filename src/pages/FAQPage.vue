@@ -74,8 +74,8 @@ import { AccordionList, AccordionItem } from "vue3-rich-accordion";
         <AccordionItem id="mId8">
           <template #summary>How do I print a certificate of completion?</template>
           <div>
-            <p>For courses completed in the ALMS, login to AKO, access the ALMS main page, and select “Detailed Training Records”.  A list of the courses you have completed will appear.  Under “Completion Status”, select “Print Certificate of Completion”.  After the certificate loads, you can print it by using the printer icon on the ALMS webpage and NOT the normal printing from your internet browser.</p>
-            <p>For more precise instructions, see this <a href="/docs/how_to_print_certificates_in_alms.pdf" target="_blank">How to Print Certificates</a> (pdf).</p>
+            <p>You may print certificates for courses completed in ALMS. You can access certificates by logging into ALMS main page, and select “Detailed Training Records”. A list of the courses you have completed will appear. Under “Completion Status”, select “Print Certificate of Completion”. After the certificate loads, you can print it by using the printer icon on the ALMS webpage and NOT the normal printing from your internet browser.</p>
+            <p>For more precise instructions, see this <a href="/docs/how_to_print_certificates_in_alms.pdf" target="_blank">How to Print Certificates</a> (pdf) document.</p>
           </div>
         </AccordionItem>
         <AccordionItem id="mId9">
