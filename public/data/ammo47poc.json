@@ -132,5 +132,19 @@
     "altpocPhone1": "",
     "altpocPhone2": "",
     "altpocdsnPhone": ""
+  },
+  {
+    "contactId": "000009",
+    "pocTitle": "For Registration Availability for this course at JB Charleston, SC",
+    "pocName": "Marc Grewe",
+    "pocEmail": "marc.grewe.1@us.af.mil",
+    "pocPhone1": "",
+    "pocPhone2": "",
+    "pocdsnPhone": "",
+    "altpocName": "",
+    "altpocEmail": "",
+    "altpocPhone1": "",
+    "altpocPhone2": "",
+    "altpocdsnPhone": ""
   }
 ]

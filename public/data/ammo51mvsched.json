@@ -4,7 +4,7 @@
     "startDate": "12/11/2023",
     "stopDate": "12/13/2023",
     "location": "Rota, Spain, AE",
-    "classNumb": "002",
+    "classNumb": "701",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"
@@ -14,7 +14,7 @@
     "startDate": "04/10/2024",
     "stopDate": "04/12/2024",
     "location": "Yokosuka, Japan, AP",
-    "classNumb": "701",
+    "classNumb": "703",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"
@@ -24,7 +24,7 @@
     "startDate": "05/06/2024",
     "stopDate": "05/08/2024",
     "location": "Okinawa, Japan, AP",
-    "classNumb": "702",
+    "classNumb": "704",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"
@@ -34,7 +34,7 @@
     "startDate": "05/21/2024",
     "stopDate": "05/23/2024",
     "location": "Norfolk, VA",
-    "classNumb": "703",
+    "classNumb": "705",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"
@@ -44,7 +44,7 @@
     "startDate": "06/11/2024",
     "stopDate": "06/13/2024",
     "location": "San Diego, CA",
-    "classNumb": "704",
+    "classNumb": "706",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"
@@ -54,7 +54,17 @@
     "startDate": "01/17/2024",
     "stopDate": "01/19/2024",
     "location": "MCBH, AP",
-    "classNumb": "705",
+    "classNumb": "707",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00007",
+    "startDate": "08/12/2024",
+    "stopDate": "08/14/2024",
+    "location": "Crane, IN",
+    "classNumb": "711",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"

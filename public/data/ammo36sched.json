@@ -1,15 +1,5 @@
 [
   {
-    "classId": "00001",
-    "startDate": "08/21/2023",
-    "stopDate": "08/25/2023",
-    "location": "Norfolk, VA",
-    "classNumb": "704",
-    "status": "Scheduled",
-    "contact": "Available",
-    "contactId": "000001"
-  },
-  {
     "classId": "00002",
     "startDate": "08/26/2024",
     "stopDate": "08/30/2024",

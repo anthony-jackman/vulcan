@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "classId": "000001",
+    "startDate": "01/08/2024",
+    "stopDate": "01/28/2024",
+    "location": "McAlester, OK",
+    "classNumb": "001",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  }
+]

@@ -12,7 +12,7 @@
   {
     "classId": "00004",
     "startDate": "02/06/2024",
-    "stopDate": "02/06/2024",
+    "stopDate": "02/15/2024",
     "location": "San Diego, CA",
     "classNumb": "701",
     "status": "Scheduled",
@@ -22,7 +22,7 @@
   {
     "classId": "00005",
     "startDate": "06/03/2024",
-    "stopDate": "06/03/2024",
+    "stopDate": "06/13/2024",
     "location": "Norfolk, VA",
     "classNumb": "702",
     "status": "Scheduled",
