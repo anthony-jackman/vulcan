@@ -1,10 +1,20 @@
 [
   {
     "classId": "00001",
-    "startDate": "08/02/2023",
-    "stopDate": "08/18/2023",
+    "startDate": "05/08/2024",
+    "stopDate": "05/24/2024",
     "location": "McAlester, OK",
     "classNumb": "003",
+    "status": "Scheduled",
+    "contact": "Available",
+    "contactId": "000001"
+  },
+  {
+    "classId": "00002",
+    "startDate": "09/09/2024",
+    "stopDate": "09/24/2024",
+    "location": "McAlester, OK",
+    "classNumb": "004",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"
