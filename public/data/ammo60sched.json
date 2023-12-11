@@ -4,7 +4,7 @@
     "startDate": "01/22/2024",
     "stopDate": "02/02/2024",
     "location": "McAlester, OK",
-    "classNumb": "001",
+    "classNumb": "002",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"
@@ -14,17 +14,17 @@
     "startDate": "04/22/2024",
     "stopDate": "05/03/2024",
     "location": "McAlester, OK",
-    "classNumb": "002",
+    "classNumb": "003",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"
   },
   {
     "classId": "00003",
-    "startDate": "07/08/2024",
-    "stopDate": "07/19/2024",
+    "startDate": "08/02/2024",
+    "stopDate": "08/23/2024",
     "location": "McAlester, OK",
-    "classNumb": "003",
+    "classNumb": "004",
     "status": "Scheduled",
     "contact": "Available",
     "contactId": "000001"
