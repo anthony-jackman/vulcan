@@ -1020,146 +1020,146 @@ const router = createRouter({
         ]
       }
     },
-    {
-      path: '/navytrngsites/20srgGulfport',
-      name: '20srgGulfport',
-      component: () => import('@/pages/locations/20srgGulfport.vue')
-    },
-    {
-      path: '/navytrngsites/dacMcAlester',
-      name: 'dacMcAlester',
-      component: () => import('@/pages/locations/dacMcAlester.vue')
-    },
-    {
-      path: '/navytrngsites/ewtglantLittleCreek',
-      name: 'ewtglantLittleCreek',
-      component: () => import('@/pages/locations/ewtglantLittleCreek.vue')
-    },
+    // {
+    //   path: '/navytrngsites/20srgGulfport',
+    //   name: '20srgGulfport',
+    //   component: () => import('@/pages/locations/20srgGulfport.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/dacMcAlester',
+    //   name: 'dacMcAlester',
+    //   component: () => import('@/pages/locations/dacMcAlester.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/ewtglantLittleCreek',
+    //   name: 'ewtglantLittleCreek',
+    //   component: () => import('@/pages/locations/ewtglantLittleCreek.vue')
+    // },
     // {
     //   path: '/navytrngsites/fltactYokosuka',
     //   name: 'fltactYokosuka',
     //   component: () => import('@/pages/locations/fltactYokosuka.vue')
     // },
-    {
-      path: '/navytrngsites/mcagc29Palms',
-      name: 'mcagc29Palms',
-      component: () => import('@/pages/locations/mcagcc29Palms.vue')
-    },
-    {
-      path: '/navytrngsites/mcasCherryPoint',
-      name: 'mcasCherryPoint',
-      component: () => import('@/pages/locations/mcasCherryPoint.vue')
-    },
-    {
-      path: '/navytrngsites/mcasMiramar',
-      name: 'mcasMiramar',
-      component: () => import('@/pages/locations/mcasMiramar.vue')
-    },
-    {
-      path: '/navytrngsites/mcasPendleton',
-      name: 'mcasPendleton',
-      component: () => import('@/pages/locations/mcasPendleton.vue')
-    },
-    {
-      path: '/navytrngsites/mcbPendleton',
-      name: 'mcbPendleton',
-      component: () => import('@/pages/locations/mcbPendleton.vue')
-    },
-    {
-      path: '/navytrngsites/mcbhKaneoheBay',
-      name: 'mcbhKaneoheBay',
-      component: () => import('@/pages/locations/mcbhKaneoheBay.vue')
-    },
-    {
-      path: '/navytrngsites/navairfacElCentro',
-      name: 'navairfacElCentro',
-      component: () => import('@/pages/locations/navairfacElCentro.vue')
-    },
-    {
-      path: '/navytrngsites/navairstaJacksonville',
-      name: 'navairstaJacksonville',
-      component: () => import('@/pages/locations/navairstaJacksonville.vue')
-    },
-    {
-      path: '/navytrngsites/navairstaOceana',
-      name: 'navairstaOceana',
-      component: () => import('@/pages/locations/navairstaOceana.vue')
-    },
-    {
-      path: '/navytrngsites/navairstaSigonella',
-      name: 'navairstaSigonella',
-      component: () => import('@/pages/locations/navairstaSigonella.vue')
-    },
-    {
-      path: '/navytrngsites/navairstaWhidbeyIs',
-      name: 'navairstaWhidbeyIs',
-      component: () => import('@/pages/locations/navairstaWhidbeyIs.vue')
-    },
-    {
-      path: '/navytrngsites/navairwpnstaChinaLake',
-      name: 'navairwpnstaChinaLake',
-      component: () => import('@/pages/locations/navairwpnstaChinaLake.vue')
-    },
-    {
-      path: '/navytrngsites/navbaseGuam',
-      name: 'navbaseGuam',
-      component: () => import('@/pages/locations/navbaseGuam.vue')
-    },
-    {
-      path: '/navytrngsites/navbaseSanDiego',
-      name: 'navbaseSanDiego',
-      component: () => import('@/pages/locations/navbaseSanDiego.vue')
-    },
-    {
-      path: '/navytrngsites/navmagIndianIsland',
-      name: 'navmagIndianIsland',
-      component: () => import('@/pages/locations/navmagIndianIsland.vue')
-    },
-    {
-      path: '/navytrngsites/navstaNorfolk',
-      name: 'navstaNorfolk',
-      component: () => import('@/pages/locations/navstaNorfolk.vue')
-    },
-    {
-      path: '/navytrngsites/navstaRota',
-      name: 'navstaRota',
-      component: () => import('@/pages/locations/navstaRota.vue')
-    },
-    {
-      path: '/navytrngsites/navsupactBahrain',
-      name: 'navsupactBahrain',
-      component: () => import('@/pages/locations/navsupactBahrain.vue')
-    },
-    {
-      path: '/navytrngsites/navsupactNaples',
-      name: 'navsupactNaples',
-      component: () => import('@/pages/locations/navsupactNaples.vue')
-    },
-    {
-      path: '/navytrngsites/navwpnstaCharleston',
-      name: 'navwpnstaCharleston',
-      component: () => import('@/pages/locations/navwpnstaCharleston.vue')
-    },
-    {
-      path: '/navytrngsites/navwpnstaSealBeach',
-      name: 'sealbeach',
-      component: () => import('@/pages/locations/navwpnstaSealBeach.vue')
-    },
-    {
-      path: '/navytrngsites/nuwcKeyport',
-      name: 'nuwcKeyport',
-      component: () => import('@/pages/locations/nuwcKeyport.vue')
-    },
-    {
-      path: '/navytrngsites/okinawa',
-      name: 'okinawa',
-      component: () => import('@/pages/locations/okinawa.vue')
-    },
-    {
-      path: '/navytrngsites',
-      name: 'navytrngsites',
-      component: () => import('@/pages/NavyTrainingSitesPage.vue')
-    },
+    // {
+    //   path: '/navytrngsites/mcagc29Palms',
+    //   name: 'mcagc29Palms',
+    //   component: () => import('@/pages/locations/mcagcc29Palms.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/mcasCherryPoint',
+    //   name: 'mcasCherryPoint',
+    //   component: () => import('@/pages/locations/mcasCherryPoint.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/mcasMiramar',
+    //   name: 'mcasMiramar',
+    //   component: () => import('@/pages/locations/mcasMiramar.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/mcasPendleton',
+    //   name: 'mcasPendleton',
+    //   component: () => import('@/pages/locations/mcasPendleton.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/mcbPendleton',
+    //   name: 'mcbPendleton',
+    //   component: () => import('@/pages/locations/mcbPendleton.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/mcbhKaneoheBay',
+    //   name: 'mcbhKaneoheBay',
+    //   component: () => import('@/pages/locations/mcbhKaneoheBay.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navairfacElCentro',
+    //   name: 'navairfacElCentro',
+    //   component: () => import('@/pages/locations/navairfacElCentro.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navairstaJacksonville',
+    //   name: 'navairstaJacksonville',
+    //   component: () => import('@/pages/locations/navairstaJacksonville.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navairstaOceana',
+    //   name: 'navairstaOceana',
+    //   component: () => import('@/pages/locations/navairstaOceana.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navairstaSigonella',
+    //   name: 'navairstaSigonella',
+    //   component: () => import('@/pages/locations/navairstaSigonella.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navairstaWhidbeyIs',
+    //   name: 'navairstaWhidbeyIs',
+    //   component: () => import('@/pages/locations/navairstaWhidbeyIs.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navairwpnstaChinaLake',
+    //   name: 'navairwpnstaChinaLake',
+    //   component: () => import('@/pages/locations/navairwpnstaChinaLake.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navbaseGuam',
+    //   name: 'navbaseGuam',
+    //   component: () => import('@/pages/locations/navbaseGuam.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navbaseSanDiego',
+    //   name: 'navbaseSanDiego',
+    //   component: () => import('@/pages/locations/navbaseSanDiego.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navmagIndianIsland',
+    //   name: 'navmagIndianIsland',
+    //   component: () => import('@/pages/locations/navmagIndianIsland.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navstaNorfolk',
+    //   name: 'navstaNorfolk',
+    //   component: () => import('@/pages/locations/navstaNorfolk.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navstaRota',
+    //   name: 'navstaRota',
+    //   component: () => import('@/pages/locations/navstaRota.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navsupactBahrain',
+    //   name: 'navsupactBahrain',
+    //   component: () => import('@/pages/locations/navsupactBahrain.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navsupactNaples',
+    //   name: 'navsupactNaples',
+    //   component: () => import('@/pages/locations/navsupactNaples.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navwpnstaCharleston',
+    //   name: 'navwpnstaCharleston',
+    //   component: () => import('@/pages/locations/navwpnstaCharleston.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/navwpnstaSealBeach',
+    //   name: 'sealbeach',
+    //   component: () => import('@/pages/locations/navwpnstaSealBeach.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/nuwcKeyport',
+    //   name: 'nuwcKeyport',
+    //   component: () => import('@/pages/locations/nuwcKeyport.vue')
+    // },
+    // {
+    //   path: '/navytrngsites/okinawa',
+    //   name: 'okinawa',
+    //   component: () => import('@/pages/locations/okinawa.vue')
+    // },
+    // {
+    //   path: '/navytrngsites',
+    //   name: 'navytrngsites',
+    //   component: () => import('@/pages/NavyTrainingSitesPage.vue')
+    // },
     {
       path: '/privacy',
       name: 'privacy-security',
