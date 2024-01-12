@@ -99,7 +99,7 @@ function closeModal() {
     </div>
   </section>
   <section id="availability" class="block">
-    <h2 class="subtitle is-inline is-bold">Availability: </h2>If you are affiliated with the Navy or the Marine Corps, request quotas via the <a href='###'>Navy Training page</a> of this website. For all other students, admission to a course is by nomination from the prospective student's command. If the nominating command has access to ATRRS, the submission must be made via ATRRS.
+    <h2 class="subtitle is-inline is-bold">Availability: </h2>If you are affiliated with the Navy or the Marine Corps, request quotas via the <RouterLink :to="{ name: 'navytrng' }">Navy Training page</RouterLink> of this website. For all other students, admission to a course is by nomination from the prospective student's command. If the nominating command has access to ATRRS, the submission must be made via ATRRS.
   </section>
   <section id="iacet" class="block">
     <h2 class="subtitle is-inline is-bold">The IACET Standard: </h2>The IACET Standard: DAC has been approved by the International Association for Continuing Education and Training (IACET) as an Authorized Provider of Continuing Education Units (CEUs). In obtaining this accreditation, the Defense Ammunition Center has demonstrated that it complies with the ANSI/IACET Standard which is recognized internationally as a standard of good practice. The DAC awards 7.5 Continuing Education Units (CEUs) on the course certificate for successful completion of this course.
