@@ -100,7 +100,7 @@
         </tr>
         <tr>
           <td><RouterLink :to="{ name: 'ammo54dl' }">AMMO-54-DL</RouterLink></td>
-          <td>4E-F43/645-F27 (DL)</td>
+          <td>9E-F68/920-F36 (DL)</td>
           <td>RISK MGMT &amp; PREP OF SOP FOR AMMO &amp; EXP (CERT)</td>
         </tr>
         <tr>
