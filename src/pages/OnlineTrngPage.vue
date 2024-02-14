@@ -46,7 +46,7 @@
         <tr>
           <td><RouterLink :to="{ name: 'ammo28dl' }">AMMO-28-DL</RouterLink></td>
           <td>4E-F33/645-F17 (DL)</td>
-          <td>NAVY ELECTRICAL EXPLOSIVE SAFETY (CERT)</td>
+          <td>ARMY ELECTRICAL EXPLOSIVE SAFETY (CERT)</td>
         </tr>
         <tr>
           <td><RouterLink :to="{ name: 'ammo29dl' }">AMMO-29-DL</RouterLink></td>
