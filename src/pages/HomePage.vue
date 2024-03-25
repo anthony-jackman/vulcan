@@ -7,10 +7,10 @@
   <section>
     <h1 class="title has-text-centered mt-3">Welcome to DAC Training</h1>
     <p class="whoarewe">
-      The Defense Ammunition Center and US Army Technical Center for
-      explosives Safety (DACTCES) provides worldwide support with technical
+      The Defense Ammunition Center (DAC) and US Army Technical Center for
+      Explosives Safety (USATCES) provides worldwide support with technical
       expertise and training for munitions, explosives safety, and hazardous
-      materials. DACTCES is the Center for Excellence for Munitions and
+      materials. USATCES is the Center for Excellence for Munitions and
       Explosives Safety. The Directorate for Training provides
       ammunition-related training for Department of Defense (DOD) military and
       civilian personnel through mobile training teams, regional training
