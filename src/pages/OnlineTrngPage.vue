@@ -10,7 +10,7 @@
           <img src="@/assets/icons/warningSymbol.png" :alt="'yellow background triangle with black exclamation point in center'" />
         </div>
         <div class="advisorytext">
-          <p class="pl-4 pr-4 pb-4">On or around the 2nd quarter of FY24, the Army Learning Management System (ALMS) will become the Army Training Information System (ATIS-L). A sneak peek is available at <a href='https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4' rel='noopener' target='_blank'>https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4</a>. Please be prepared for up to two weeks of system downtime once the transition period begins; transition date is currently to be determined. Note DAC is NOT the proponent for ALMS, ATIS-L, or the transition, but we will do our best to provide current information to learners as it becomes available. Training records (and progress) should carry over from ALMS to ATIS-L upon completion of the transition.</p>
+          <p class="pl-4 pr-4 pb-4">ALMS is down. The new learning management system, Army Training Information System - Learning (ATIS-L) is scheduled to come up on 29 March 2024. Updates will be posted to this page. A sneak peek of ATIS is available at <a href='https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4' rel='noopener' target='_blank'>https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4</a>.</p>
         </div>
         <div class="advisoryicon">
           <img src="@/assets/icons/warningSymbol.png" alt="yellow background triangle with black exclamation point in center" />
