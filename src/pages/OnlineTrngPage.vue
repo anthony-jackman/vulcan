@@ -10,7 +10,7 @@
           <img src="@/assets/icons/warningSymbol.png" :alt="'yellow background triangle with black exclamation point in center'" />
         </div>
         <div class="advisorytext">
-          <p class="pl-4 pr-4 pb-4">ALMS has transitioned to the new learning management system, Army Training Information System - Learning (ATIS-L). The Army team is currently working to transition DAC's AMMO courses to ATIS. Updates will be posted to this page upon completion of the transition. A sneak peek of ATIS is available at <a href='https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4' rel='noopener' target='_blank'>https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4</a>.</p>
+          <p class="pl-4 pr-4 pb-4">ALMS has transitioned to the new learning management system, Army Training Information System - Learning (ATIS-L), <a href="https://learn.atis.army.mil/" rel="noopener" target="_blank">https://learn.atis.army.mil/</a>. DAC's AMMO courses have completed transition to ATIS. Please ensure you utilize the TRADOC Course Number when searching for DAC courses in ATIS. A complete list of DAC's online training is provided in the table below. A sneak peek of ATIS is available at <a href='https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4' rel='noopener' target='_blank'>https://www.pdmatis.army.mil/ATIS-Learning-Teaser.mp4</a>.</p>
         </div>
         <div class="advisoryicon">
           <img src="@/assets/icons/warningSymbol.png" alt="yellow background triangle with black exclamation point in center" />
